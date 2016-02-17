@@ -92,20 +92,20 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
-                <h2>Sworn Brothers of the Night's Watch</h2>
+                <h2> Meet The Team</h2>
                 <hr class="small">
                 <div class="row">
                     <?php foreach ($users as $user): ?>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
-                                <img src="<?= $user->getAvatar() ?>" class="img-circle" style="max-width: 150px;"
+                                <img src="<?= $user->getAvatar() ?>" class="img-circle" style="width: 150px; height: 150px;"
                                      alt="Circular Image"/>
                                 <h4>
                                     <strong><?= $this->e($user->getFName() . ' ' . $user->getLName()) ?></strong>
                                 </h4>
 
                                 <p><?= $this->e($user->getRole()) ?></p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="<?= $this->e($user->getWebsite()) ?>" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                     <?php endforeach; ?>

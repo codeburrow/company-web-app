@@ -14,7 +14,7 @@ class StaticUserRepository implements UserRepository
             [
                 'fName'   => 'Rizart',
                 'lName'   => 'Dokollari',
-                'role'    => 'First Ranger',
+                'role'    => 'Senior Dev, Web, A.I',
                 'avatar'  => 'https://avatars3.githubusercontent.com/u/4212119?v=3&s=460',
                 'website' => 'https://github.com/rdok'
             ],
@@ -22,10 +22,42 @@ class StaticUserRepository implements UserRepository
             [
                 'fName'   => 'Antony',
                 'lName'   => 'Kalogeropoulos',
-                'role'    => 'Lord Commander',
+                'role'    => 'CEO',
                 'avatar'  => 'https://avatars0.githubusercontent.com/u/9202029?v=3&s=460',
                 'website' => 'https://github.com/PadawanTony/'
             ],
+
+            [
+                'fName'   => 'George',
+                'lName'   => 'Spiridakis',
+                'role'    => 'Android Developer',
+                'avatar'  => 'https://avatars1.githubusercontent.com/u/16156202?v=3&s=460',
+                'website' => 'https://github.com/george-sp'
+            ],
+
+	        [
+		        'fName'   => 'Nourhan',
+		        'lName'   => 'El Shenawi',
+		        'role'    => 'Marketing, A.I',
+		        'avatar'  => 'img/nourhan.png',
+		        'website' => 'https://github.com/NourhanElshenawi'
+	        ],
+
+	        [
+		        'fName'   => 'John',
+		        'lName'   => 'Oikonomidis',
+		        'role'    => 'Junior Developer',
+		        'avatar'  => 'img/john3.png',
+		        'website' => ''
+	        ],
+
+	        [
+		        'fName'   => 'Kostas',
+		        'lName'   => 'Paidarakis',
+		        'role'    => 'Web Developer',
+		        'avatar'  => 'https://avatars2.githubusercontent.com/u/9594858?v=3&s=460',
+		        'website' => 'https://github.com/KonPed'
+	        ],
 
 //            [
 //                //  Input your data here similar to above
