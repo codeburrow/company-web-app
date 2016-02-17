@@ -121,12 +121,6 @@
     <!-- /.container -->
 </section>
 
-<!-- Callout -->
-<aside class="callout">
-    <div class="text-vertical-center">
-        <h1>Winter Is Coming</h1>
-    </div>
-</aside>
 
 <!-- Portfolio -->
 <section id="portfolio" class="portfolio">
