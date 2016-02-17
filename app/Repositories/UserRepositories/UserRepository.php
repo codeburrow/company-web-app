@@ -1,9 +1,8 @@
 <?php namespace Burrow\Repositories\UserRepositories;
 
 /**
- * Created by PhpStorm.
- * User: Rizart
- * Date: 6/14/2015
+ * @author Antony Kalogeropoulos
+ * @since 2/17/2016
  * Time: 6:45 PM
  */
 interface UserRepository

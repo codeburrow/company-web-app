@@ -4,8 +4,8 @@ use Burrow\Repositories\QuoteRepositories\StaticQuoteRepository;
 use Burrow\Repositories\UserRepositories\StaticUserRepository;
 
 /**
- * @author Rizart Dokollari
- * @since 6/14/2015
+ * @author Antony Kalogeropoulos
+ * @since 2/17/2016
  */
 class WelcomeController extends Controller
 {

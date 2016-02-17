@@ -1,8 +1,7 @@
 <?php namespace Burrow\Repositories\QuoteRepositories;
 /**
- * Created by PhpStorm.
- * User: Rizart
- * Date: 6/14/2015
+ * @author Antony Kalogeropoulos
+ * @since 2/17/2016
  * Time: 7:50 PM
  */
 
