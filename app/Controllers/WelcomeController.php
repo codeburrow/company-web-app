@@ -1,7 +1,7 @@
-<?php namespace HubIT\Controllers;
+<?php namespace Burrow\Controllers;
 
-use HubIT\Repositories\QuoteRepositories\StaticQuoteRepository;
-use HubIT\Repositories\UserRepositories\StaticUserRepository;
+use Burrow\Repositories\QuoteRepositories\StaticQuoteRepository;
+use Burrow\Repositories\UserRepositories\StaticUserRepository;
 
 /**
  * @author Rizart Dokollari

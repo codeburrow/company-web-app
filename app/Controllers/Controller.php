@@ -1,4 +1,4 @@
-<?php namespace HubIT\Controllers;
+<?php namespace Burrow\Controllers;
 
 use League\Plates\Engine;
 

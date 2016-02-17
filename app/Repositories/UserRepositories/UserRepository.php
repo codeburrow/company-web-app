@@ -1,4 +1,4 @@
-<?php namespace HubIT\Repositories\UserRepositories;
+<?php namespace Burrow\Repositories\UserRepositories;
 
 /**
  * Created by PhpStorm.
