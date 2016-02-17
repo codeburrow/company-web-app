@@ -62,11 +62,13 @@
 <!-- Header -->
 <header id="top" class="header">
     <div class="text-vertical-center">
-        <h1><?= $this->e($title) ?></h1>
-
-        <h3><?= $this->e($randomQuote) ?></h3>
+        <div id="header2">
+            <h1><?= $this->e($title) ?></h1>
+            <h3><?= $this->e($randomQuote) ?></h3>
+            <br>
+        </div>
         <br>
-        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        <a href="#about" class="btn btn-default btn-lg"><strong>Find Out More</strong></a>
     </div>
 </header>
 
