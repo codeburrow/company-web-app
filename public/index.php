@@ -27,7 +27,7 @@ require __DIR__ . '/../vendor/autoload.php';
 */
 $mux = new \Pux\Mux;
 
-$mux->get('/', ['HubIT\Controllers\WelcomeController', 'index']);
+$mux->get('/', ['Burrow\Controllers\WelcomeController', 'index']);
 
 $route = $mux->dispatch($_SERVER['REQUEST_URI']);
 
