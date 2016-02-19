@@ -132,35 +132,36 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="portfolio-item">
-                            <a href="https://github.com/Hub-IT/gazzete">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                            <a href="http://itpedia.apphb.com/">
+                                <img class="img-portfolio img-responsive" src="img/itpedia.png">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="portfolio-item">
-                            <a href="https://github.com/Hub-IT/hubit-cypberpunk">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                            <a href="http://ashoka.students.acg.edu/Coursework/php/index.php">
+                                <img class="img-portfolio img-responsive" src="img/judge.png">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="portfolio-item">
-                            <a href="https://github.com/Hub-IT/club">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                            <a href="http://hubit-gazette.herokuapp.com/">
+                                <img class="img-portfolio img-responsive" src="img/gazette.png">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="portfolio-item">
-                            <a href="https://github.com/Hub-IT/GitWorkshop_Java">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                            <a href="https://github.com/PadawanTony/DereeAmbassadors/tree/master">
+                                <img class="img-portfolio img-responsive" src="img/ambassadors.png">
                             </a>
                         </div>
                     </div>
                 </div>
                 <!-- /.row (nested) -->
-                <a href="#" class="btn btn-dark">View More Items</a>
+<!--                ToDo: Create CodeBurrow organization in GitHub-->
+<!--                <a href="#" class="btn btn-dark">View More Items</a>-->
             </div>
             <!-- /.col-lg-10 -->
         </div>
