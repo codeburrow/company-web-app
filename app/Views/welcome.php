@@ -127,7 +127,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h2>Check a Sample of Our Work</h2>
+                <h2>Check out a Sample of our Work</h2>
                 <hr class="small">
                 <div class="row">
                     <div class="col-md-6">
@@ -175,53 +175,55 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h3>The buttons below are impossible to resist.</h3>
-                <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                <h2>If you are interested in working with us you can drop us a line below.
+	                <hr>
+	                <small style="color: #fff"> We will get back to you in less than 24 hours </small>
+                </h2>
             </div>
         </div>
     </div>
 </aside>
 
-<!-- Map -->
-<section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.872655193806!2d23.829772899999988!3d38.00343069999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a199a36941f749%3A0x25c4e883777ce4ab!2sGravias+17%2C+Ag.+Paraskevi+153+42!5e0!3m2!1sen!2sgr!4v1434305333016"></iframe>
-    <br/>
-    <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-    </iframe>
-</section>
 
 <!-- Footer -->
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h4><strong><?= $this->e($title) ?></strong>
-                </h4>
 
-                <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
-                <ul class="list-unstyled">
-                    <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                    </li>
-                </ul>
-                <br>
-                <ul class="list-inline">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                    </li>
-                </ul>
-                <hr class="small">
-                <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                <h3> You can email us or contact support at &nbsp
+	                (+30) 694 94 64 934 <i class="fa fa-phone-square fa-fw"></i>
+                </h3>
+	            <hr class="small">
+
+	            <form>
+		            <div class="form-group row">
+			            <label for="name" class="col-sm-2 form-control-label text-right"> Name: </label>
+			            <div class="col-sm-10">
+				            <input type="text" class="form-control form-control-lg" id="name" placeholder="Your Full Name">
+			            </div>
+			        </div>
+		            <div class="form-group row">
+			            <label for="inputEmail3" class="col-sm-2 form-control-label text-right"> Email:</label>
+			            <div class="col-sm-10">
+				            <input type="email" class="form-control form-control-lg" id="inputEmail3" placeholder="Your Email">
+			            </div>
+		            </div>
+		            <div class="form-group row">
+			            <label for="message" class="col-sm-2 form-control-label text-right"> Message:</label>
+			            <div class="col-sm-10">
+			                <textarea class="form-control form-control-lg" id="message" placeholder="Your Message" rows="5"></textarea>
+				        </div>
+		            </div>
+		            <div class="form-group row">
+			            <div class="col-sm-offset-2 col-sm-10">
+				            <button type="submit" class="pull-left btn btn-large btn-primary text-uppercase"> <i class="fa fa-envelope-o fa-fw"></i> Send Message </button>
+			            </div>
+		            </div>
+	            </form>
+
+                <hr>
+                <p class="text-muted">Copyright &copy; CodeBurrow.com 2016 </p>
             </div>
         </div>
     </div>

@@ -193,7 +193,7 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
-    border: 3px solid #222222;
+    border: 1px solid #222222;
 }
 
 .img-portfolio {
@@ -201,7 +201,7 @@ hr.small {
 }
 
 .img-portfolio:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 /* Call to Action */
@@ -229,5 +229,9 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 30px 0;
+}
+
+footer form {
+    margin-bottom: 100px;
 }
