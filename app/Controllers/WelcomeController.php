@@ -36,4 +36,22 @@ class WelcomeController extends Controller
 
         return $this->views->render('welcome', compact('users', 'title', 'randomQuote'));
     }
+
+    public function formPost()
+    {
+        $title = 'Code Burrow';
+
+        $users = $this->userRepository->getAll();
+
+        shuffle($users);
+
+        $randomQuote = $this->quotesRepository->getRandom();
+
+	    var_dump($_POST);
+
+	    print_r($_POST['name']);
+
+	    echo "Hello bbq";
+//        return $this->views->render('welcome', compact('users', 'title', 'randomQuote'));
+    }
 }
