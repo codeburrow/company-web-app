@@ -32,10 +32,15 @@ $mux->get('/index.php', ['Burrow\Controllers\WelcomeController', 'index']);
 $mux->post('/', ['Burrow\Controllers\WelcomeController', 'formPost']);
 $mux->post('/index.php', ['Burrow\Controllers\WelcomeController', 'formPost']);
 
+$mux->get('/post/:parameters',
+	'Burrow\Controllers\WelcomeController:getParameters');
+
+$mux->get('/404',
+	'Burrow\Controllers\WelcomeController:return404');
+
 $route = $mux->dispatch($_SERVER['REQUEST_URI']);
 
-if($route === null) { //ToDO: dd('redirect to 404');
-	$route = $mux->dispatch('/');
-}
+if ( $route === null ) $route = $mux->dispatch('/404');
 
 echo Executor::execute($route);
+
