@@ -28,9 +28,16 @@ require __DIR__ . '/../vendor/autoload.php';
 $mux = new \Pux\Mux;
 
 $mux->get('/', ['Burrow\Controllers\WelcomeController', 'index']);
-$mux->get('/test', ['Burrow\Controllers\WelcomeController', 'index']);
 
-if($route === null)  ddd('redirect to 404');
+$mux->get('/post/:parameters',
+	'Burrow\Controllers\WelcomeController:getParameters');
+
+$mux->get('/404',
+	'Burrow\Controllers\WelcomeController:return404');
+
+$route = $mux->dispatch($_SERVER['REQUEST_URI']);
+
+if ( $route === null ) $route = $mux->dispatch('/404');
 
 echo Executor::execute($route);
 

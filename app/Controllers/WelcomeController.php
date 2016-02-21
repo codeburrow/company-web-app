@@ -9,31 +9,48 @@ use Burrow\Repositories\UserRepositories\StaticUserRepository;
  */
 class WelcomeController extends Controller
 {
-    private $userRepository;
-    private $quotesRepository;
+	/**
+	 * @var StaticUserRepository
+	 */
+	private $userRepository;
+	/**
+	 * @var StaticQuoteRepository
+	 */
+	private $quotesRepository;
 
-    public function __construct()
-    {
-        parent::__construct();
+	/**
+	 * WelcomeController constructor.
+	 */
+	public function __construct()
+	{
+		parent::__construct();
+		$this->userRepository = new StaticUserRepository();
+		$this->quotesRepository = new StaticQuoteRepository();
+	}
 
+	/**
+	 * Show all users
+	 */
+	public function index()
+	{
+		$title = 'Code Burrow';
 
-        $this->userRepository = new StaticUserRepository();
-        $this->quotesRepository = new StaticQuoteRepository();
-    }
+		$users = $this->userRepository->getAll();
 
-    /**
-     * Show all users
-     */
-    public function index()
-    {
-        $title = 'Code Burrow';
+		shuffle($users);
 
-        $users = $this->userRepository->getAll();
+		$randomQuote = $this->quotesRepository->getRandom();
 
-        shuffle($users);
+		return $this->views->render('welcome', compact('users', 'title', 'randomQuote'));
+	}
 
-        $randomQuote = $this->quotesRepository->getRandom();
+	public function getParameters()
+	{
+		ddd($_GET);
+	}
 
-        return $this->views->render('welcome', compact('users', 'title', 'randomQuote'));
-    }
+	public function return404()
+	{
+		return '404';
+	}
 }
