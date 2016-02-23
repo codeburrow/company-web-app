@@ -44,6 +44,11 @@ class WelcomeController extends Controller
 		return $this->views->render('welcome', compact('users', 'title', 'randomQuote'));
 	}
 
+	public function test()
+	{
+		return $this->views->render('test');
+	}
+
 	public function formPost()
 	{
 		$title = 'Code Burrow';

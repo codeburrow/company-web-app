@@ -1,0 +1,21 @@
+{
+  "name": "CodeBurrow",
+  "homepage": "https://github.com/PadawanTony/CodeBurrow",
+  "authors": [
+    "Antony <anthonykalogeropoulos@gmail.com>"
+  ],
+  "description": "",
+  "main": "public/index.php",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
