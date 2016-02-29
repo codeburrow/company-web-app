@@ -192,7 +192,7 @@
             <div class="col-lg-10 col-lg-offset-1 text-center">
 
                 <h3> You can email us or contact support at &nbsp
-	                (+30) 694 94 64 934 <i class="fa fa-phone-square fa-fw"></i>
+                    <a href="tel:+306949464934">(+30) 694 94 64 934 <i class="fa fa-phone-square fa-fw"></i> </a>
                 </h3>
 	            <hr class="small">
 
