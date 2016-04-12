@@ -79,7 +79,7 @@
 			<div class="col-lg-12 text-center">
 				<h2>We love Start-Ups. And we love web and mobile apps.</h2>
 
-				<h3> Our mission is to help either new or established start-ups to enhance their products, create new features, optimize their current set-up, as well as advise them on technology related matters (security, maintenance, etc). </h3>
+				<h3> Our mission is to help both new and established start-ups to enhance their products, create new features, optimize their current set-up, as well as advise them on technology related matters (security, maintenance, etc). </h3>
 				<p class="lead">We're looking for passionate entrepreneurs who believe in their ideas.</p>
 			</div>
 		</div>

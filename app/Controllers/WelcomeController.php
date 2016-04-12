@@ -33,7 +33,7 @@ class WelcomeController extends Controller
 	 */
 	public function index()
 	{
-		$title = 'Code Burrow';
+		$title = '<CodeBurrow/>';
 
 		$users = $this->userRepository->getAll();
 
