@@ -14,7 +14,7 @@ class StaticUserRepository implements UserRepository
             [
                 'fName'   => 'Rizart',
                 'lName'   => 'Dokollari',
-                'role'    => 'Senior Dev, Web, A.I',
+                'role'    => 'Senior Developer',
                 'avatar'  => 'https://avatars3.githubusercontent.com/u/4212119?v=3&s=460',
                 'website' => 'https://github.com/rdok'
             ],
@@ -38,18 +38,18 @@ class StaticUserRepository implements UserRepository
 	        [
 		        'fName'   => 'Nourhan',
 		        'lName'   => 'El Shenawi',
-		        'role'    => 'Marketing, A.I',
+		        'role'    => 'Web Developer',
 		        'avatar'  => 'img/nourhan.png',
 		        'website' => 'https://github.com/NourhanElshenawi'
 	        ],
 
-	        [
-		        'fName'   => 'John',
-		        'lName'   => 'Oikonomidis',
-		        'role'    => 'Junior Developer',
-		        'avatar'  => 'img/john3.png',
-		        'website' => ''
-	        ],
+//	        [
+//		        'fName'   => 'John',
+//		        'lName'   => 'Oikonomidis',
+//		        'role'    => 'Junior Developer',
+//		        'avatar'  => 'img/john3.png',
+//		        'website' => ''
+//	        ],
 
 	        [
 		        'fName'   => 'Kostas',
