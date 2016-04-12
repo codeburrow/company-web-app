@@ -176,7 +176,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>If you are interested in working with us you can drop us a line below.
+				<h2>If you are interested in working with us you can drop us a line below
 					<hr>
 					<small style="color: #fff"> We will get back to you in less than 24 hours</small>
 				</h2>
