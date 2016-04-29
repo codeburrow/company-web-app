@@ -33,7 +33,7 @@ class WelcomeController extends Controller
 	 */
 	public function index()
 	{
-		$title = '<CodeBurrow/>';
+		$title = 'CodeBurrow';
 
 		$users = $this->userRepository->getAll();
 
@@ -41,7 +41,7 @@ class WelcomeController extends Controller
 
 		$randomQuote = $this->quotesRepository->getRandom();
 
-		return $this->views->render('welcome', compact('users', 'title', 'randomQuote'));
+		return $this->views->render('main', compact('users', 'title', 'randomQuote'));
 	}
 
 	public function test()
