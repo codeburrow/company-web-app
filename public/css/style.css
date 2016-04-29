@@ -846,3 +846,11 @@ footer h2 {
     font-size: 11px;
   }
 }
+
+#logo {
+    background: url(../img/logo_trans.png) center no-repeat;
+    background-size: 130%;
+    margin: auto 20px;
+    padding: 20px;
+    border-radius: 15%;
+}
