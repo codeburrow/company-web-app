@@ -85,7 +85,6 @@ class WelcomeController extends Controller
 
 	public function return404()
 	{
-
-		return 'I need to create a nice view for the 404 errors';
+		return $this->views->render('view404');
 	}
 }
