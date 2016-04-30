@@ -29,7 +29,6 @@ $mux = new \Pux\Mux;
 
 $mux->get('/', ['Burrow\Controllers\WelcomeController', 'index']);
 $mux->get('/index.php', ['Burrow\Controllers\WelcomeController', 'index']);
-$mux->get('/test', ['Burrow\Controllers\WelcomeController', 'test']);
 $mux->post('/', ['Burrow\Controllers\WelcomeController', 'formPost']);
 $mux->post('/index.php', ['Burrow\Controllers\WelcomeController', 'formPost']);
 
