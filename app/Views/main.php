@@ -63,7 +63,7 @@
 
 <!-- Preloader section
 ================================================== -->
-<section  class="preloader">
+<section class="preloader">
 
 	<div class="sk-rotating-plane"></div>
 
@@ -82,7 +82,9 @@
 				<span class="icon icon-bar"></span>
 			</button>
 
-			<a href="#home"><div id="logo" class="smoothScroll navbar-brand"> </div></a>
+			<a href="#home">
+				<div id="logo" class="smoothScroll navbar-brand"></div>
+			</a>
 			<!--			<a href="#home" class="smoothScroll navbar-brand">CodeBurrow</a>-->
 
 		</div>
@@ -95,7 +97,6 @@
 				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
 				<li><a href="#team" class="smoothScroll">TEAM</a></li>
 				<li><a href="#portfolio" class="smoothScroll">GALLERY</a></li>
-				<li><a href="#plan" class="smoothScroll">PLANS</a></li>
 				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
 			</ul>
 		</div>
@@ -151,7 +152,8 @@
 						<div class="col-md-12">
 							<div class="slider-caption">
 								<h2>Web Apps</h2>
-								<p class="color-white"> We love the web. You'll get responsiveness, design, scalability, and extensibility. </p>
+								<p class="color-white"> We love the web. You'll get responsiveness, design, scalability,
+									and extensibility. </p>
 							</div>
 						</div>
 					</div>
@@ -164,7 +166,8 @@
 						<div class="col-md-12">
 							<div class="slider-caption">
 								<h2>Teamwork</h2>
-								<p class="color-white">It's all about collaboration. Bring the business perspective and we'll bring the technical know-how.</p>
+								<p class="color-white">It's all about collaboration. Bring the business perspective and
+									we'll bring the technical know-how.</p>
 							</div>
 						</div>
 					</div>
@@ -176,11 +179,11 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div id="bx-pager">
-							<a data-slide-index="0" href=""><img src="images/slider/thumb1.jpg" alt="thumbnail 1" /></a>
-							<a data-slide-index="1" href=""><img src="images/slider/thumb2.jpg" alt="thumbnail 2" /></a>
-							<a data-slide-index="2" href=""><img src="images/slider/thumb3.jpg" alt="thumbnail 3" /></a>
-							<a data-slide-index="3" href=""><img src="images/slider/thumb4.jpg" alt="thumbnail 4" /></a>
-							<a data-slide-index="4" href=""><img src="images/slider/thumb5.jpg" alt="thumbnail 5" /></a>
+							<a data-slide-index="0" href=""><img src="images/slider/thumb1.jpg" alt="thumbnail 1"/></a>
+							<a data-slide-index="1" href=""><img src="images/slider/thumb2.jpg" alt="thumbnail 2"/></a>
+							<a data-slide-index="2" href=""><img src="images/slider/thumb3.jpg" alt="thumbnail 3"/></a>
+							<a data-slide-index="3" href=""><img src="images/slider/thumb4.jpg" alt="thumbnail 4"/></a>
+							<a data-slide-index="4" href=""><img src="images/slider/thumb5.jpg" alt="thumbnail 5"/></a>
 						</div>
 					</div>
 				</div>
@@ -217,21 +220,24 @@
 					<i class="icon-tools medium-icon"></i>
 					<h3>Technical Expertise</h3>
 					<hr>
-					<p>It is impossible for one to know all. We bring the technical know-how and you bring the business perspective.</p>
+					<p>It is impossible for one to know all. We bring the technical know-how and you bring the business
+						perspective.</p>
 				</div>
 
 				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
 					<i class="icon-profile-male medium-icon"></i><i class="icon-profile-female medium-icon"></i>
 					<h3>Teamwork</h3>
 					<hr>
-					<p>We value teamwork most of all. You'll find us open to new suggestions and we'll make sure to offer ours.</p>
+					<p>We value teamwork most of all. You'll find us open to new suggestions and we'll make sure to
+						offer ours.</p>
 				</div>
 
 				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
 					<i class="icon-lightbulb medium-icon"></i>
 					<h3>Business Insight</h3>
 					<hr>
-					<p>Always researching, we know the trends and you can benefit from our sector-specific recommendations.</p>
+					<p>Always researching, we know the trends and you can benefit from our sector-specific
+						recommendations.</p>
 				</div>
 
 			</div>
@@ -254,15 +260,19 @@
 					<h5 class="wow bounceIn">THE HOW</h5>
 					<h1 class="heading color-white">ACTIVE PEOPLE</h1>
 					<hr>
-					<p class="color-white">Our work is our passion. We love it. It makes us happy and gives us purpose in life. That's how we have fun!</p>
+					<p class="color-white">Our work is our passion. We love it. It makes us happy and gives us purpose
+						in life. That's how we have fun!</p>
 				</div>
 			</div>
 
 			<div class="col-md-6 col-sm-12">
 				<h3 class="color-white">OUR STORY</h3>
 				<h2>CodeBurrow</h2>
-				<p class="color-white">Lucky enough to meet each other, our team was born out of our friendship. A passion for programming and entrepreneurship as well as a strong sense of trust binds us together in our own bubble of fortune and optimism.</p>
-				<p class="color-white">Who we are, we are together. Teamwork and collaboration is the center of our work. We support and learn from each other every day.</p>
+				<p class="color-white">Lucky enough to meet each other, our team was born out of our friendship. A
+					passion for programming and entrepreneurship as well as a strong sense of trust binds us together in
+					our own bubble of fortune and optimism.</p>
+				<p class="color-white">Who we are, we are together. Teamwork and collaboration is the center of our
+					work. We support and learn from each other every day.</p>
 			</div>
 
 			<div class="col-md-6 col-sm-12">
@@ -272,14 +282,18 @@
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="headingOne">
 							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+								   aria-expanded="true" aria-controls="collapseOne">
 									HIGH QUALITY TEAM
 								</a>
 							</h4>
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+						     aria-labelledby="headingOne">
 							<div class="panel-body">
-								<p>From web platforms to mobile applications to enterprise solutions, our team employs a wide range of technological expertise. We love new challenges and we make it our obligation to keep up with the latest trends.</p>
+								<p>From web platforms to mobile applications to enterprise solutions, our team employs a
+									wide range of technological expertise. We love new challenges and we make it our
+									obligation to keep up with the latest trends.</p>
 							</div>
 						</div>
 					</div>
@@ -287,14 +301,18 @@
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="headingTwo">
 							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+								   aria-expanded="true" aria-controls="collapseTwo">
 									ENTREPRENEURIAL SPIRIT
 								</a>
 							</h4>
 						</div>
-						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+						     aria-labelledby="headingTwo">
 							<div class="panel-body">
-								<p>Our experience with startups and our sector-specific research allows us to offer strategic advice on marketing techniques and revenue tactics as well as insight on business implementations of various technologies. </p>
+								<p>Our experience with startups and our sector-specific research allows us to offer
+									strategic advice on marketing techniques and revenue tactics as well as insight on
+									business implementations of various technologies. </p>
 							</div>
 						</div>
 					</div>
@@ -302,14 +320,17 @@
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="headingThree">
 							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+								   aria-expanded="true" aria-controls="collapseThree">
 									Again. Teamwork.
 								</a>
 							</h4>
 						</div>
-						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+						     aria-labelledby="headingThree">
 							<div class="panel-body">
-								<p>We choose our clients carefully because we stay with them for the long run. We deeply appreciate honesty, straight-forwardness, and constructive criticism.</p>
+								<p>We choose our clients carefully because we stay with them for the long run. We deeply
+									appreciate honesty, straight-forwardness, and constructive criticism.</p>
 							</div>
 						</div>
 					</div>
@@ -317,33 +338,33 @@
 				</div>
 			</div>
 
-<!--			<div class="col-md-3 col-sm-3 col-xs-6">-->
-<!--				<div class="about-fact border-right">-->
-<!--					<span>32</span>-->
-<!--					<h4>TOURS</h4>-->
-<!--				</div>-->
-<!--			</div>-->
-<!---->
-<!--			<div class="col-md-3 col-sm-3 col-xs-6">-->
-<!--				<div class="about-fact border-right">-->
-<!--					<span>16</span>-->
-<!--					<h4>AWARDS</h4>-->
-<!--				</div>-->
-<!--			</div>-->
-<!---->
-<!--			<div class="col-md-3 col-sm-3 col-xs-6">-->
-<!--				<div class="about-fact border-right">-->
-<!--					<span>128</span>-->
-<!--					<h4>TRIPS</h4>-->
-<!--				</div>-->
-<!--			</div>-->
-<!---->
-<!--			<div class="col-md-3 col-sm-3 col-xs-6">-->
-<!--				<div class="about-fact">-->
-<!--					<span>24</span>-->
-<!--					<h4>PLANS</h4>-->
-<!--				</div>-->
-<!--			</div>-->
+			<!--			<div class="col-md-3 col-sm-3 col-xs-6">-->
+			<!--				<div class="about-fact border-right">-->
+			<!--					<span>32</span>-->
+			<!--					<h4>TOURS</h4>-->
+			<!--				</div>-->
+			<!--			</div>-->
+			<!---->
+			<!--			<div class="col-md-3 col-sm-3 col-xs-6">-->
+			<!--				<div class="about-fact border-right">-->
+			<!--					<span>16</span>-->
+			<!--					<h4>AWARDS</h4>-->
+			<!--				</div>-->
+			<!--			</div>-->
+			<!---->
+			<!--			<div class="col-md-3 col-sm-3 col-xs-6">-->
+			<!--				<div class="about-fact border-right">-->
+			<!--					<span>128</span>-->
+			<!--					<h4>TRIPS</h4>-->
+			<!--				</div>-->
+			<!--			</div>-->
+			<!---->
+			<!--			<div class="col-md-3 col-sm-3 col-xs-6">-->
+			<!--				<div class="about-fact">-->
+			<!--					<span>24</span>-->
+			<!--					<h4>PLANS</h4>-->
+			<!--				</div>-->
+			<!--			</div>-->
 
 		</div>
 	</div>
@@ -370,7 +391,7 @@
 
 			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
 				<div class="team-wrapper">
-					<img src="images/team1.jpg" class="img-responsive" alt="team img">
+					<img src="img/shot_George_cb.jpg" class="img-responsive" alt="George img">
 					<div class="team-des">
 						<h4>George Spiridakis</h4>
 						<h3>Android Developer</h3>
@@ -384,7 +405,7 @@
 
 			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="1.3s">
 				<div class="team-wrapper">
-					<img src="images/team2.jpg" class="img-responsive" alt="team img">
+					<img src="img/shot_Riz_cb.jpg" class="img-responsive" alt="Rizart img">
 					<div class="team-des">
 						<h4>Rizart Dokollari</h4>
 						<h3>Senior Developer</h3>
@@ -398,7 +419,7 @@
 
 			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
 				<div class="team-wrapper">
-					<img src="images/team3.jpg" class="img-responsive" alt="team img">
+					<img src="img/shot_Nourhan_cb.jpg" class="img-responsive" alt="Nourhan img">
 					<div class="team-des">
 						<h4>Nourhan Elshenawi</h4>
 						<h3>Web Developer</h3>
@@ -413,7 +434,7 @@
 
 			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
 				<div class="team-wrapper">
-					<img src="images/team3.jpg" class="img-responsive" alt="team img">
+					<img src="img/shot_Antony_cb.jpg" class="img-responsive" alt="Antony img">
 					<div class="team-des">
 						<h4>Antony Kalogeropoulos</h4>
 						<h3>CEO</h3>
@@ -450,13 +471,15 @@
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<img src="images/portfolio-img1.jpg" alt="portfolio img"/>
-						<figcaption>
-							<h2>Web Platform for Funding</h2>
-							<p class="icon-links">
-								<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-							</p>
-						</figcaption>
+						<a href="https://diplohack.herokuapp.com/" data-lightbox-gallery="portfolio-gallery">
+							<img src="img/diplohack.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Web Platform for Funding</h2>
+								<p class="icon-links">
+									<span class="icon icon-attachment"></span>
+								</p>
+							</figcaption>
+						</a>
 					</figure>
 				</div>
 			</div>
@@ -464,13 +487,16 @@
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<img src="images/portfolio-img2.jpg" alt="portfolio img"/>
-						<figcaption>
-							<h2>E-Magazine</h2>
-							<p class="icon-links">
-								<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-							</p>
-						</figcaption>
+						<a href="http://hubit-gazette.herokuapp.com/" data-lightbox-gallery="portfolio-gallery">
+							<img src="img/gazette.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>E-Magazine</h2>
+								<p class="icon-links">
+								<span
+									class="icon icon-attachment"></span>
+								</p>
+							</figcaption>
+						</a>
 					</figure>
 				</div>
 			</div>
@@ -478,13 +504,16 @@
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<img src="images/portfolio-img3.jpg" alt="portfolio img"/>
-						<figcaption>
-							<h2>Mobile Cashless Payment</h2>
-							<p class="icon-links">
-								<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-							</p>
-						</figcaption>
+						<a href="img/fintech_2.jpg" data-lightbox-gallery="portfolio-gallery">
+							<img src="img/fintech.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Mobile Cashless Payment</h2>
+								<p class="icon-links">
+								<span
+									class="icon icon-attachment"></span>
+								</p>
+							</figcaption>
+						</a>
 					</figure>
 				</div>
 			</div>
@@ -492,13 +521,16 @@
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<img src="images/portfolio-img4.jpg" alt="portfolio img"/>
-						<figcaption>
-							<h2>ITpedia</h2>
-							<p class="icon-links">
-								<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-							</p>
-						</figcaption>
+						<a href="http://itpedia.apphb.com/" data-lightbox-gallery="portfolio-gallery">
+							<img src="img/itpedia.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>ITpedia</h2>
+								<p class="icon-links">
+								<span
+									class="icon icon-attachment"></span>
+								</p>
+							</figcaption>
+						</a>
 					</figure>
 				</div>
 			</div>
@@ -506,13 +538,16 @@
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<img src="images/portfolio-img5.jpg" alt="portfolio img"/>
-						<figcaption>
-							<h2>Event Planning Mobile App</h2>
-							<p class="icon-links">
-								<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-							</p>
-						</figcaption>
+						<a href="img/ambassadors_register.png" data-lightbox-gallery="portfolio-gallery">
+							<img src="img/ambassadors.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Event Planning Mobile App</h2>
+								<p class="icon-links">
+								<span
+									class="icon icon-attachment"></span>
+								</p>
+							</figcaption>
+						</a>
 					</figure>
 				</div>
 			</div>
@@ -520,13 +555,16 @@
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<img src="images/portfolio-img6.jpg" alt="portfolio img"/>
-						<figcaption>
-							<h2>Landing Page </h2>
-							<p class="icon-links">
-								<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-							</p>
-						</figcaption>
+						<a href="img/cyberpunks_2.jpg" data-lightbox-gallery="portfolio-gallery">
+							<img src="img/cyberpunks.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Landing Page </h2>
+								<p class="icon-links">
+								<span
+									class="icon icon-attachment"></span>
+								</p>
+							</figcaption>
+						</a>
 					</figure>
 				</div>
 			</div>
@@ -537,7 +575,7 @@
 				<div class="portfolio-bottom">
 					<h2>INTERESTED?</h2>
 					<p>We are happy to discuss your ideas and spend some time together even for fun.</p>
-					<a href="#plan" class="smoothScroll btn btn-default">Contact Us</a>
+					<a href="#contact" class="smoothScroll btn btn-default">Contact Us</a>
 				</div>
 			</div>
 
@@ -643,7 +681,7 @@
 			<!-- Contact form section
 			================================================== -->
 			<div class="col-md-offset-1 col-md-10 col-sm-12">
-				<form action="#" method="post" class="wow fadeInUp" data-wow-delay="0.6s">
+				<form action="/" method="POST" class="wow fadeInUp" data-wow-delay="0.6s">
 					<div class="col-md-4 col-sm-6">
 						<input type="text" class="form-control" placeholder="Name" name="name">
 					</div>
