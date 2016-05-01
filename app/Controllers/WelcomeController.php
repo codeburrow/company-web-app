@@ -87,4 +87,11 @@ class WelcomeController extends Controller
 	{
 		return $this->views->render('view404');
 	}
+	
+	public function showBlog()
+	{
+		$title = 'Blog';
+
+		return $this->views->render( 'blog', compact('title') );
+	}
 }

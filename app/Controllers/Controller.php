@@ -3,16 +3,18 @@
 use League\Plates\Engine;
 
 /**
- * @author Antony Kalogeropoulos
- * @since 2/17/2016
+ * @author Antony Kalogeropoulos <anthonykalogeropoulos@gmail.com>
+ * @since  6/14/2015
  */
 class Controller
 {
-    protected $views;
+	protected $views;
 
-    public function __construct()
-    {
-        $this->views = new Engine(__DIR__ . '/../Views');
-    }
+	public function __construct()
+	{
+		$engine = new Engine;
+		$engine->setDirectory(__DIR__.'/../Views');
+		$this->views = $engine;
+	}
 
 }
