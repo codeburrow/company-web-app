@@ -103,7 +103,7 @@ class WelcomeController extends Controller
 			// Set the From address with an associative array
 			->setFrom(array('a.kalogeropoulos@acg.edu' => 'Antony Kalogeropoulos'))
 			// Set the To addresses with an associative array
-			->setTo(array('antony@codeburrow.com', 'anthonykalogeropoulos@gmail.com' => 'Antony'))
+			->setTo(array('antony@codeburrow.com' => 'Antony'))
 			// Give it a body
 			->setBody('Test Test Test');
 
