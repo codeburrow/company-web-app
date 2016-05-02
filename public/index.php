@@ -28,7 +28,7 @@ require __DIR__ . '/../bootstrap/setUp.php';
 $mux = new \Pux\Mux;
 
 $mux->get('/', ['Burrow\Controllers\WelcomeController', 'index']);
-$mux->get('/getGlobals', ['Burrow\Controllers\WelcomeController', 'getGlobals']);
+//$mux->get('/getGlobals', ['Burrow\Controllers\WelcomeController', 'getGlobals']);
 $mux->get('/index.php', ['Burrow\Controllers\WelcomeController', 'index']);
 $mux->get('/blog', ['Burrow\Controllers\WelcomeController', 'showBlog']);
 $mux->post('/', ['Burrow\Controllers\WelcomeController', 'formPost']);
