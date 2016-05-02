@@ -332,8 +332,10 @@ CodeBurrow
 						<h4>George Spiridakis</h4>
 						<h3>Android Developer</h3>
 						<ul class="social-icon">
-							<li><a href="#" class="fa fa-github wow fadeIn" data-wow-delay="0.6s"></a></li>
-							<li><a href="#" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
+							<li><a href="https://github.com/george-sp" class="fa fa-github wow fadeIn"
+							       data-wow-delay="0.6s"></a></li>
+							<li><a href="https://www.linkedin.com/in/spiridakis" class="fa fa-linkedin wow fadeIn"
+							       data-wow-delay="0.6s"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -346,8 +348,10 @@ CodeBurrow
 						<h4>Rizart Dokollari</h4>
 						<h3>Senior Developer</h3>
 						<ul class="social-icon">
-							<li><a href="#" class="fa fa-github wow fadeIn" data-wow-delay="0.6s"></a></li>
-							<li><a href="#" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
+							<li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"
+							       data-wow-delay="0.6s"></a></li>
+							<li><a href="https://www.linkedin.com/in/rdokollari"
+							       class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -360,9 +364,10 @@ CodeBurrow
 						<h4>Nourhan Elshenawi</h4>
 						<h3>Web Developer</h3>
 						<ul class="social-icon">
-							<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-							<li><a href="#" class="fa fa-github wow fadeIn" data-wow-delay="0.6s"></a></li>
-							<li><a href="#" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
+							<li><a href="https://github.com/NourhanElshenawi" class="fa fa-github wow fadeIn"
+							       data-wow-delay="0.6s"></a></li>
+							<li><a href="https://www.linkedin.com/in/nshenawi" class="fa fa-linkedin wow fadeIn"
+							       data-wow-delay="0.6s"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -375,8 +380,10 @@ CodeBurrow
 						<h4>Antony Kalogeropoulos</h4>
 						<h3>CEO</h3>
 						<ul class="social-icon">
-							<li><a href="#" class="fa fa-github wow fadeIn" data-wow-delay="0.6s"></a></li>
-							<li><a href="#" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
+							<li><a href="https://github.com/PadawanTony" class="fa fa-github wow fadeIn"
+							       data-wow-delay="0.6s"></a></li>
+							<li><a href="https://www.linkedin.com/in/antonykal" class="fa fa-linkedin wow fadeIn"
+							       data-wow-delay="0.6s"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -644,8 +651,10 @@ CodeBurrow
 					<p>support@codeburrow.com</p>
 				</div>
 				<div class="col-md-6 col-sm-6">
-					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> CEO PHONE</h3>
-					<p>+30 694 94 64 934</p>
+					<a href="tel:+306949464934">
+						<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> CEO PHONE</h3>
+						<p>+30 694 94 64 934</p>
+					</a>
 				</div>
 			</div>
 

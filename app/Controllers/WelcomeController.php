@@ -49,40 +49,11 @@ class WelcomeController extends Controller
 
 	public function formPost()
 	{
-//		$title = 'Code Burrow';
-//
-//		$users = $this->userRepository->getAll();
-//
-//		shuffle($users);
-//
-//		$randomQuote = $this->quotesRepository->getRandom();
-//
-//		if ( isset($_POST) ) {
-//			$to = "support@codeburrow.com"; // this is your Email address
-//			$from = $_POST['email']; // this is the sender's Email address
-//			$name = $_POST['name'];
-//			$subject = "Message From CodeBurrow:" . $_POST['subject'];
-//			$subject2 = "Copy of Your Message to CodeBurrow.com: " . $_POST['subject'];
-//			$message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
-//			$message2 = $name . ", here is a copy of your message: " . "\n\n" . $_POST['message'];
-//
-//			$headers = "From:" . $from;
-//			$headers2 = "From:" . $to;
-//			mail($to, $subject, $message, $headers);
-//			mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
-//			echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
-//			// You can also use header('Location: thank_you.php'); to redirect to another page.
-//			// You cannot use header and echo together. It's one or the other.
-//		} else {
-//			echo "Form submission unsuccessful";
-//		}
-
 		// Create the Transport
 		$transport = Swift_SmtpTransport::newInstance('smtp.secureserver.net.', 25)
 //			->setUsername('your username')
 //			->setPassword('your password')
 		;
-
 
 		// Create the Mailer using your created Transport
 		$mailer = Swift_Mailer::newInstance($transport);

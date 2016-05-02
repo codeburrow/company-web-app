@@ -84,8 +84,8 @@
 
 				<a style="color: #ffa400;" href="http://www.codeburrow.com"><h2 class="wow bounceIn">CodeBurrow</h2></a>
 				<ul class="social-icon">
-					<li><a href="#" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.3s"></a></li>
-					<li><a href="#" class="fa fa-github wow fadeIn" data-wow-delay="1.3s"></a></li>
+					<li><a href="https://www.linkedin.com/company/codeburrow" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.3s"></a></li>
+					<li><a href="https://github.com/codeburrow" class="fa fa-github wow fadeIn" data-wow-delay="1.3s"></a></li>
 				</ul>
 				<p>Copyright &copy; 2016 CodeBurrow
 
