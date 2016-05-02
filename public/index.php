@@ -12,7 +12,7 @@
 */
 use Pux\Executor;
 
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/../bootstrap/setUp.php';
 
 /*
 |--------------------------------------------------------------------------
