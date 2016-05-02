@@ -1,0 +1,22 @@
+{
+  "name": "codeburrow-company-web-app",
+  "version": "1.0.0",
+  "description": "The official web page for CodeBurrow.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeburrow/company-web-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeburrow/company-web-app/issues"
+  },
+  "homepage": "https://github.com/codeburrow/company-web-app#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
