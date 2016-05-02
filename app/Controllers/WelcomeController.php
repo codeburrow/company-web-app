@@ -78,9 +78,14 @@ class WelcomeController extends Controller
 		 */
 		$result = $mailer->send($message);;
 
+		require( '../Functions/FlashMsg.php' );
 		//Confirm Email Sent
 		if ($result > 0) {
-			echo "Mail Sent. Thank you ";
+			flash( 'example_message', 'This content will show up on example2.php' );
+            flash( 'example_message' );
+
+
+echo "Mail Sent. Thank you ";
 		} else {
 			echo "Form submission unsuccessful";
 		}

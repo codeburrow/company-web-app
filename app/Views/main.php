@@ -350,7 +350,7 @@ CodeBurrow
 						<ul class="social-icon">
 							<li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"
 							       data-wow-delay="0.6s"></a></li>
-							<li><a href="https://www.linkedin.com/in/rdokollari"
+							<li><a href="https://gr.linkedin.com/in/rizart "
 							       class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
 						</ul>
 					</div>
