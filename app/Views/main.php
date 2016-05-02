@@ -613,18 +613,28 @@ CodeBurrow
 			================================================== -->
 			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
 				<div class="section-title">
-					<h5 class="wow bounceIn">THE FIRST STEP</h5>
-					<h1 class="heading">CONTACT US</h1>
-					<hr>
-					<p>We promise to get back to you in less than a day.</p>
-					<p>(Except if it's Sunday <i class="fa fa-smile-o" aria-hidden="true"></i> )</p>
+					<?php if (isset($messageSuccess)) { ?>
+						<h2 style="color: forestgreen;">
+							<?php echo $messageSuccess; ?>
+						</h2>
+					<?php } elseif (isset($messageError)) { ?>
+						<h2 style="color: tomato;">
+							<?php echo $messageError; ?>
+						</h2>
+					<?php } else { ?>
+						<h5 class="wow bounceIn">THE FIRST STEP</h5>
+						<h1 class="heading">CONTACT US</h1>
+						<hr>
+						<p>We promise to get back to you in less than a day.</p>
+						<p>(Except if it's Sunday <i class="fa fa-smile-o" aria-hidden="true"></i> )</p>
+					<?php } ?>
 				</div>
 			</div>
 
 			<!-- Contact form section
 			================================================== -->
 			<div class="col-md-offset-1 col-md-10 col-sm-12">
-				<form action="/" method="POST" class="wow fadeInUp" data-wow-delay="0.6s">
+				<form action="/#contact" method="POST" class="wow fadeInUp" data-wow-delay="0.6s">
 					<div class="col-md-4 col-sm-6">
 						<input type="text" class="form-control" placeholder="Name" name="name">
 					</div>
