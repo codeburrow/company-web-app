@@ -1,9 +1,7 @@
 <?= $this->layout('layouts/master'); ?>
 
 <?php $this->start('title') ?>
-
 CodeBurrow
-
 <?php $this->stop() ?>
 
 
