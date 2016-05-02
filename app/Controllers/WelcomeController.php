@@ -83,15 +83,6 @@ class WelcomeController extends Controller
 //			->setPassword('your password')
 		;
 
-		/*
-		You could alternatively use a different transport such as Sendmail or Mail:
-
-		// Sendmail
-		$transport = Swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs');
-
-		// Mail
-		$transport = Swift_MailTransport::newInstance();
-		*/
 
 		// Create the Mailer using your created Transport
 		$mailer = Swift_Mailer::newInstance($transport);
@@ -99,13 +90,13 @@ class WelcomeController extends Controller
 		// Create the message
 		$message = Swift_Message::newInstance()
 			// Give the message a subject
-			->setSubject('Email From CodeBurrow.com')
+			->setSubject('Email From CodeBurrow: ' . $_POST['subject'])
 			// Set the From address with an associative array
-			->setFrom(array('a.kalogeropoulos@acg.edu' => 'Antony Kalogeropoulos'))
+			->setFrom(array( $_POST['email'] => $_POST['name'] ))
 			// Set the To addresses with an associative array
-			->setTo(array('antony@codeburrow.com' => 'Antony'))
+			->setTo(array('antony@codeburrow.com' => 'Antony Kalogeropoulos'))
 			// Give it a body
-			->setBody('Test Test Test');
+			->setBody($_POST['message']);
 
 		// Optionally add any attachments
 //			->attach(Swift_Attachment::fromPath('my-document.pdf'))
