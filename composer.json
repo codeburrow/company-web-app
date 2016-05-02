@@ -12,7 +12,8 @@
   "require": {
     "corneltek/pux": "^1.5",
     "league/plates": "^3.1",
-    "raveren/kint": "^1.0"
+    "raveren/kint": "^1.0",
+    "swiftmailer/swiftmailer": "^5.4"
   },
   "autoload": {
     "psr-4": {
