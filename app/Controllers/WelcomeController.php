@@ -94,7 +94,7 @@ class WelcomeController extends Controller
 			// Set the From address with an associative array
 			->setFrom(array( $_POST['email'] => $_POST['name'] ))
 			// Set the To addresses with an associative array
-			->setTo(array('antony@codeburrow.com' => 'Antony Kalogeropoulos'))
+			->setTo(array('support@codeburrow.com' => 'Antony Kalogeropoulos'))
 			// Give it a body
 			->setBody($_POST['message']);
 
