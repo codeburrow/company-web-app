@@ -20,7 +20,6 @@ Blog
 
 			<a href="http://www.codeburrow.com">
 				<div id="logo" class="smoothScroll navbar-brand"></div>
-				<span class="smoothScroll navbar-brand" style="border-radius: 5%;">HOME</span>
 			</a>
 		</div>
 		<div class="collapse navbar-collapse">
