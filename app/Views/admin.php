@@ -38,6 +38,7 @@ Dashboard
                 ================================================== -->
                 <div class="col-sm-12">
                     <div class="section-title">
+                        <h5><?php echo $post['title']; ?></h5>
                         <form role="form" action="/admin.php" method="post">
                             <div class="form-group">
                                 <label for="author">Author: </label>
