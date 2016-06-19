@@ -178,9 +178,13 @@ class WelcomeController extends Controller
 	
 	public function showBlog()
 	{
-		$title = 'Blog';
+        $this->DB = new DB();
 
-		return $this->views->render('blog', compact('title'));
+        $posts = $this->DB->getAllPosts();
+        
+        $title = 'Blog';
+
+		return $this->views->render('blog', compact('title', 'posts'));
 	}
 
 	public function test()
