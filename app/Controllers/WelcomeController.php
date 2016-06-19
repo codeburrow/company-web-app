@@ -1,5 +1,6 @@
 <?php namespace Burrow\Controllers;
 
+use Burrow\Database\DB;
 use Swift_Mailer;
 use Swift_Message;
 use Burrow\Repositories\QuoteRepositories\StaticQuoteRepository;
@@ -12,6 +13,9 @@ use Swift_SmtpTransport;
  */
 class WelcomeController extends Controller
 {
+
+    protected $DB;
+
 	/**
 	 * @var StaticUserRepository
 	 */
@@ -178,4 +182,9 @@ class WelcomeController extends Controller
 
 		return $this->views->render('blog', compact('title'));
 	}
+
+	public function test()
+	{
+        $this->DB = new DB();
+    }
 }
