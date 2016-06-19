@@ -187,10 +187,12 @@ class WelcomeController extends Controller
 		return $this->views->render('blog', compact('title', 'posts'));
 	}
 
-	public function test()
+	public function admin()
 	{
         $this->DB = new DB();
 
-        var_dump($this->DB->getAllUsers());
+        $posts = $this->DB->getAllPosts();
+
+        return $this->views->render('admin', compact('posts'));
     }
 }
