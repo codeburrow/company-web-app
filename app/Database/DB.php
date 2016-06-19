@@ -45,9 +45,9 @@ class DB
         }
     }
 
-    public function getAllPosts()
+    public function getAllUsers()
     {
-        $stmt = $this->conn->prepare("SELECT * FROM kourtis.posts");
+        $stmt = $this->conn->prepare("SELECT * FROM Test.Users");
         $stmt->execute();
 
         // set the resulting array to associative

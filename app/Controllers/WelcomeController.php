@@ -186,5 +186,7 @@ class WelcomeController extends Controller
 	public function test()
 	{
         $this->DB = new DB();
+
+        echo $this->DB->getAllUsers();
     }
 }
