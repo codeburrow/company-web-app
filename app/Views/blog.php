@@ -48,40 +48,9 @@ Blog
                 <div class="col-sm-12">
                     <div class="section-title">
                         <h5 class="wow bounceIn"><?php echo $post['author']; ?></h5>
-                        <h1 class="heading">Startup Success: VCS - Your Clients Will Never See Your Software Crash</h1>
+                        <h1 class="heading"><?php echo $post['title']; ?></h1>
                         <hr>
-                        <p>All software has bugs.
-                            Be it your company website or the new cool application for your startup, there is a high
-                            chance it will have a bug that may cost you customers, if not dealt with quickly and
-                            effectively.
-
-                            As soon as you realize the existence of a bug, you have two choices:
-
-                            Re-deploy all your resources into fixing that bug, which means that your developers have to
-                            stop what they are currently working on, and get the new release back in the market asap so
-                            that your customers are not (completely) dissatisfied.
-                            Announce that the bug will be fixed in the next release of the application (which won't be
-                            soon enough) and risk losing some customers now.
-
-                            Of course, none of the above choices offer an efficient solution. But fear not, for there is
-                            VCS. Version Control System (VCS) is a tool that lets you record the development process of
-                            your software and, consequently, roll back to a working version whenever you find a bug;
-                            your clients will notice no difference in your website/application and you will have the
-                            time to deal with the bug and allocate your resources optimally.
-
-                            To give you a metaphor, imagine that you are cooking an omelet; you absentmindedly broke
-                            four eggs into the bowl while you only needed 3. If you had used VCS, you would be able to
-                            rewind that 4th egg back to its shell!
-
-                            The best part with VCS is that it's free; the most popular one called 'Git'.
-
-                            To sum up, if you are collaborating with software developers, make sure that they use
-                            Version Control System and let your clients enjoy a bug-free life.
-
-                            ---
-
-                            'Startup Success' is a series of recommendations for startup entrepreneurs on how to run a
-                            successful business. Let me know your thoughts and if this helps.</p>
+                        <p><?php echo $post['content']; ?></p>
                     </div>
                 </div>
             <?php } ?>
