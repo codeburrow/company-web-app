@@ -40,14 +40,14 @@ Dashboard
                     <div class="section-title">
                         <form action="/admin.php" method="post">
                             <label for="author">Author: </label>
-                            <input type="text" name="author" id="author" placeholder="<?php echo $post['author']; ?>">
+                            <input type="text" name="author" id="author" value="<?php echo $post['author']; ?>">
 
                             <label for="title">Title: </label>
-                            <input type="text" name="title" id="title" placeholder="<?php echo $post['title']; ?>">
+                            <input type="text" name="title" id="title" value="<?php echo $post['title']; ?>">
                             <hr>
 
                             <label for="content">Content: </label>
-                            <textarea rows="10" cols="10"><input type="text" name="content" id="content" placeholder="<?php echo $post['content']; ?>"></textarea>
+                            <input type="text" name="content" id="content" value="<?php echo $post['content']; ?>">
 
                             <input type="submit" class="btn btn-success">
                         </form>
