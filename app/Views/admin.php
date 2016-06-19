@@ -19,6 +19,7 @@ Dashboard
             <a href="http://www.codeburrow.com">
                 <div id="logo" class="smoothScroll navbar-brand"></div>
             </a>
+            <span> That's cool.. ? </span>
         </div>
     </div>
 </section>
@@ -38,10 +39,13 @@ Dashboard
                 ================================================== -->
                 <div class="col-sm-12">
                     <div class="section-title">
-                        <h5 class="wow bounceIn"><?php echo $post['author']; ?></h5>
-                        <h1 class="heading"><?php echo $post['title']; ?></h1>
-                        <hr>
-                        <p><?php echo $post['content']; ?></p>
+                        <form action="/admin.php" method="post">
+                            <h5 class="wow bounceIn"><input type="text" name="author" placeholder="<?php echo $post['author']; ?>"> </h5>
+                            <h1 class="heading"><input type="text" name="title" placeholder="<?php echo $post['title']; ?>"></h1>
+                            <hr>
+                            <p><input type="text" name="content" placeholder="<?php echo $post['content']; ?>"></p>
+                            <input type="submit" class="btn btn-success">
+                        </form>
                     </div>
                 </div>
             <?php } ?>
