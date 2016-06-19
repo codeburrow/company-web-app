@@ -187,6 +187,6 @@ class WelcomeController extends Controller
 	{
         $this->DB = new DB();
 
-        echo $this->DB->getAllUsers();
+        var_dump($this->DB->getAllUsers());
     }
 }
