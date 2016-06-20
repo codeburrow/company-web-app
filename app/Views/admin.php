@@ -37,7 +37,7 @@ Dashboard
                 <!-- Section title
                 ================================================== -->
                 <div class="col-sm-12">
-                    <div class="section-title fa-align-left">
+                    <div class="section-title align-left">
                         <h5><?php echo $post['title']; ?></h5>
                         <form role="form" action="/admin.php" method="post">
                             <div class="form-group">
