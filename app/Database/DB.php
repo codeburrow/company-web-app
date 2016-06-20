@@ -65,12 +65,8 @@ class DB
         $content = $data['content'];
 
         $stmt = $this->conn->prepare("UPDATE Test.posts
-SET Test.posts.author=?, Test.posts.title=?, Test.posts.content=?
+SET Test.posts.author='$author', Test.posts.title='$title', Test.posts.content='$content'
 WHERE Test.posts.id='$id';");
-        $stmt->bindParam(1, $author);
-        $stmt->bindParam(2, $title);
-        $stmt->bindParam(3, $content);
-
         $stmt->execute();
 
         //Check if UPDATE was successful
