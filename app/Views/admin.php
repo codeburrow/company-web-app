@@ -37,7 +37,7 @@ Dashboard
                 <!-- Section title
                 ================================================== -->
                 <div class="col-sm-12">
-                    <div class="section-title">
+                    <div class="section-title fa-align-left">
                         <h5><?php echo $post['title']; ?></h5>
                         <form role="form" action="/admin.php" method="post">
                             <div class="form-group">
@@ -51,7 +51,7 @@ Dashboard
                             <hr>
                             <div class="form-group">
                                 <label for="content">Content: </label>
-                                <input class="form-control" type="text" name="content" id="content" value="<?php echo $post['content']; ?>">
+                                <input style="height: 400px;" class="form-control" type="text" name="content" id="content" value="<?php echo $post['content']; ?>">
                             </div>
                             <input type="submit" class="btn btn-success">
                         </form>
