@@ -38,7 +38,7 @@ Dashboard
                 ================================================== -->
                 <div class="col-sm-12">
                     <div class="section-title ">
-                        <h5 style="margin-bottom: 30px;"><?php echo $post['title']; ?></h5>
+                        <h5 style="margin-bottom: 60px;"><?php echo $post['title']; ?></h5>
                         <form role="form" action="/admin.php" method="post">
                             <div style="text-align: left" class="form-group">
                                 <label for="author">Author: </label>
