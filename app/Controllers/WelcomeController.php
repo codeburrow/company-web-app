@@ -195,4 +195,9 @@ class WelcomeController extends Controller
 
         return $this->views->render('admin', compact('posts'));
     }
+
+    public function adminPost()
+    {
+        var_dump($_POST);
+    }
 }

@@ -36,6 +36,7 @@ $mux->get('/admin', ['Burrow\Controllers\WelcomeController', 'admin']);
 $mux->post('/', ['Burrow\Controllers\WelcomeController', 'formPost']);
 $mux->post('/blog', ['Burrow\Controllers\WelcomeController', 'formPost']);
 $mux->post('/index.php', ['Burrow\Controllers\WelcomeController', 'formPost']);
+$mux->post('/admin', ['Burrow\Controllers\WelcomeController', 'adminPost']);
 
 $mux->get('/post/:parameters',
 	'Burrow\Controllers\WelcomeController:getParameters');
