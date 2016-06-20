@@ -37,23 +37,23 @@ Dashboard
                 <!-- Section title
                 ================================================== -->
                 <div class="col-sm-12">
-                    <div class="section-title align-left">
+                    <div class="section-title ">
                         <h5><?php echo $post['title']; ?></h5>
                         <form role="form" action="/admin.php" method="post">
-                            <div class="form-group">
+                            <div style="text-align: left" class="form-group">
                                 <label for="author">Author: </label>
                                 <input class="form-control" type="text" name="author" id="author" value="<?php echo $post['author']; ?>">
                             </div>
-                            <div class="form-group">
+                            <div style="text-align: left" class="form-group">
                                 <label for="title">Title: </label>
                                 <input class="form-control" type="text" name="title" id="title" value="<?php echo $post['title']; ?>">
                             </div>
                             <hr>
-                            <div class="form-group">
+                            <div style="text-align: left" class="form-group">
                                 <label for="content">Content: </label>
                                 <input style="height: 400px;" class="form-control" type="text" name="content" id="content" value="<?php echo $post['content']; ?>">
                             </div>
-                            <input type="submit" class="btn btn-success">
+                            <input type="submit" class="btn btn-large btn-success">
                         </form>
                     </div>
                 </div>
