@@ -59,6 +59,7 @@ class DB
 
     public function updatePost($data)
     {
+        var_dump($data);
         $id = $data['id'];
         $author = $data['author'];
         $title = $data['title'];
@@ -67,11 +68,13 @@ class DB
         $stmt = $this->conn->prepare("UPDATE Test.posts
 SET Test.posts.author='$author', Test.posts.title='$title', Test.posts.content='$content'
 WHERE Test.posts.id='$id';");
+        var_dump($stmt);
         $stmt->execute();
 
         //Check if UPDATE was successful
         $count = $stmt->rowCount();
-
+        var_dump($count);
+        
         return $count;
     }
 
