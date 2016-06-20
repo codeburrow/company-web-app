@@ -51,9 +51,9 @@ Dashboard
                             <hr>
                             <div style="text-align: left" class="form-group">
                                 <label for="content">Content: </label>
-                                <input style="height: 400px;" class="form-control" type="text" name="content" id="content" value="<?php echo $post['content']; ?>">
+                                <textarea rows="20" class="form-control" name="content" id="content"><?php echo $post['content']; ?></textarea>
                             </div>
-                            <input type="submit" class="btn btn-large btn-success">
+                            <input type="submit" class="btn btn-lg btn-success">
                         </form>
                     </div>
                 </div>
