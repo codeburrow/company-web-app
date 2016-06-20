@@ -200,6 +200,10 @@ class WelcomeController extends Controller
     {
         $this->DB = new DB();
         
-        $this->DB->updatePost($_POST);
+        $count = $this->DB->updatePost($_POST);
+        
+        if ($count > 0){
+            echo "yayy!";
+        }
     }
 }
