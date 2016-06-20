@@ -57,4 +57,23 @@ class DB
         return $result;
     }
 
+    public function updatePost($data)
+    {
+        $id = $data['id'];
+        $author = $data['author'];
+        $title = $data['title'];
+        $content = $data['content'];
+
+        $stmt = $this->conn->prepare("UPDATE Test.posts
+SET Test.posts.author=$author, Test.posts.title=$title, Test.posts.content=$content
+WHERE Test.posts.id=$id;");
+        $stmt->execute();
+
+        // set the resulting array to associative
+        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        $result = $stmt->fetchAll();
+        var_dump($result);
+        return $result;
+    }
+
 }

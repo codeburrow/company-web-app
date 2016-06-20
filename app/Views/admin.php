@@ -41,6 +41,10 @@ Dashboard
                         <h5 style="margin-bottom: 60px;"><?php echo $post['title']; ?></h5>
                         <form role="form" action="/admin" method="post">
                             <div style="text-align: left" class="form-group">
+                                <label for="theID">ID: </label>
+                                <input class="form-control" type="text" name="theID" id="theID" value="<?php echo $post['id']; ?>" readonly>
+                            </div>
+                            <div style="text-align: left" class="form-group">
                                 <label for="author">Author: </label>
                                 <input class="form-control" type="text" name="author" id="author" value="<?php echo $post['author']; ?>">
                             </div>

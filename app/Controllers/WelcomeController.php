@@ -198,6 +198,8 @@ class WelcomeController extends Controller
 
     public function adminPost()
     {
-        var_dump($_POST);
+        $this->DB = new DB();
+        
+        $this->DB->updatePost($_POST);
     }
 }
