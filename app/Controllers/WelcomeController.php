@@ -203,7 +203,7 @@ class WelcomeController extends Controller
         $count = $this->DB->updatePost($_POST);
         
         if ($count > 0){
-            echo "yayy!";
+            echo "Post updated!";
         }
     }
 }
