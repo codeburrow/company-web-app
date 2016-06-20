@@ -39,7 +39,7 @@ Dashboard
                 <div class="col-sm-12">
                     <div class="section-title ">
                         <h5 style="margin-bottom: 60px;"><?php echo $post['title']; ?></h5>
-                        <form role="form" action="/admin.php" method="post">
+                        <form role="form" action="/admin" method="post">
                             <div style="text-align: left" class="form-group">
                                 <label for="author">Author: </label>
                                 <input class="form-control" type="text" name="author" id="author" value="<?php echo $post['author']; ?>">
