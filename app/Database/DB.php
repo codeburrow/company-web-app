@@ -21,7 +21,7 @@ class DB
      * @param string $username
      * @param string $password
      */
-    public function __construct($servername = "127.0.0.1", $port = "3306", $dbname = "Test", $username = "root", $password = "thisisfun0007")
+    public function __construct($servername = "127.0.0.1", $port = "3306", $dbname = "company-web-app", $username = "root", $password = "thisisfun0007")
     {
         $this->servername = $servername;
         $this->port = $port;
@@ -47,7 +47,9 @@ class DB
 
     public function getAllPosts()
     {
-        $stmt = $this->conn->prepare("SELECT * FROM Test.posts");
+        $dbname = $this->dbname;
+
+        $stmt = $this->conn->prepare("SELECT * FROM `$this->dbname`.posts");
         $stmt->execute();
 
         // set the resulting array to associative
@@ -64,9 +66,9 @@ class DB
         $title = $data['title'];
         $content = $data['content'];
 
-        $stmt = $this->conn->prepare("UPDATE Test.posts
-SET Test.posts.author='$author', Test.posts.title='$title', Test.posts.content='$content'
-WHERE Test.posts.id='$id';");
+        $stmt = $this->conn->prepare("UPDATE `$this->dbname`.posts
+SET `$this->dbname`.posts.author='$author', `$this->dbname`.posts.title='$title', `$this->dbname`.posts.content='$content'
+WHERE `$this->dbname`.posts.id='$id';");
         $stmt->execute();
 
         //Check if UPDATE was successful

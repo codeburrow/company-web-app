@@ -101,7 +101,7 @@ Blog
                         <input type="text" class="form-control" placeholder="Subject" name="subject">
                     </div>
                     <div class="col-md-12 col-sm-12">
-                        <textarea class="form-control" placeholder="Message" rows="7" name="message"></textarea>
+                        <textarea class="form-control" placeholder="Message" rows="7" name="message" id="message"></textarea>
                     </div>
                     <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
                         <input type="submit" class="form-control" value="SHOOT MESSAGE">

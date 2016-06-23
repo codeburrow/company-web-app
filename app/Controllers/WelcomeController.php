@@ -33,6 +33,7 @@ class WelcomeController extends Controller
 		parent::__construct();
 		$this->userRepository = new StaticUserRepository();
 		$this->quotesRepository = new StaticQuoteRepository();
+		$this->DB = new DB();
 	}
 
 	/**
@@ -178,8 +179,6 @@ class WelcomeController extends Controller
 	
 	public function showBlog()
 	{
-        $this->DB = new DB();
-
         $posts = $this->DB->getAllPosts();
         
         $title = 'Blog';
@@ -189,21 +188,23 @@ class WelcomeController extends Controller
 
 	public function admin()
 	{
-        $this->DB = new DB();
+		$urlToPost = "/admin";
 
-        $posts = $this->DB->getAllPosts();
+		$posts = $this->DB->getAllPosts();
 
-        return $this->views->render('admin', compact('posts'));
+        return $this->views->render('admin', compact('posts', 'urlToPost'));
     }
 
-    public function adminPost()
-    {
-        $this->DB = new DB();
-        
-        $count = $this->DB->updatePost($_POST);
-        
-        if ($count > 0){
-            echo "Post updated!";
-        }
-    }
+	public function adminPost()
+	{
+		$count = $this->DB->updatePost($_POST);
+
+		if ($count > 0){
+			//ToDo: Create Flash Message
+			echo $this->admin();
+		} else {
+			echo "Fail To Update DB";
+		}
+
+	}
 }

@@ -56,6 +56,14 @@
    ================================================== -->
 	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
 
+	<script src='https://cdn.tinymce.com/4/tinymce.min.js'></script>
+	<script>
+		tinymce.init({
+			selector: '.mytextarea',
+			plugins : 'advlist autolink link image lists charmap print preview'
+		});
+	</script>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">

@@ -39,23 +39,27 @@ Dashboard
                 <div class="col-sm-12">
                     <div class="section-title ">
                         <h5 style="margin-bottom: 60px;"><?php echo $post['title']; ?></h5>
-                        <form role="form" action="/admin" method="post">
+                        <form role="form" action="<?php echo $urlToPost; ?>" method="post">
                             <div style="text-align: left" class="form-group">
                                 <label for="theID">ID: </label>
-                                <input class="form-control" type="text" name="theID" id="theID" value="<?php echo $post['id']; ?>" readonly>
+                                <input class="form-control" type="text" name="theID" id="theID"
+                                       value="<?php echo $post['id']; ?>" readonly>
                             </div>
                             <div style="text-align: left" class="form-group">
                                 <label for="author">Author: </label>
-                                <input class="form-control" type="text" name="author" id="author" value="<?php echo $post['author']; ?>">
+                                <input class="form-control" type="text" name="author" id="author"
+                                       value="<?php echo $post['author']; ?>">
                             </div>
                             <div style="text-align: left" class="form-group">
                                 <label for="title">Title: </label>
-                                <input class="form-control" type="text" name="title" id="title" value="<?php echo $post['title']; ?>">
+                                <input class="form-control" type="text" name="title" id="title"
+                                       value="<?php echo $post['title']; ?>">
                             </div>
                             <hr>
                             <div style="text-align: left" class="form-group">
                                 <label for="content">Content: </label>
-                                <textarea rows="20" class="form-control" name="content" id="content"><?php echo $post['content']; ?></textarea>
+                                <textarea rows="20" class="form-control mytextarea" name="content"
+                                          id="content"><?php echo $post['content']; ?></textarea>
                             </div>
                             <input type="submit" class="btn btn-lg btn-success">
                         </form>
