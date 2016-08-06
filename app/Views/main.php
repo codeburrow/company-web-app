@@ -417,10 +417,10 @@ CodeBurrow
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<a href="https://diplohack.herokuapp.com/" data-lightbox-gallery="portfolio-gallery">
-							<img src="img/diplohack.jpg" alt="portfolio img"/>
+						<a href="/img/bustracker_mobile.png">
+							<img src="img/bustracker_web.png" alt="portfolio img"/>
 							<figcaption>
-								<h2>Web Platform for Funding</h2>
+								<h2> Track Vehicles in Real-Time </h2>
 								<p class="icon-links">
 									<span class="icon icon-attachment"></span>
 								</p>
@@ -450,8 +450,8 @@ CodeBurrow
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<a href="img/fintech_2.jpg" data-lightbox-gallery="portfolio-gallery">
-							<img src="img/fintech.jpg" alt="portfolio img"/>
+						<a href="https://deree-judge.herokuapp.com/professor/Maira-Kotsovoulou" data-lightbox-gallery="portfolio-gallery">
+							<img src="img/judge.png" alt="portfolio img"/>
 							<figcaption>
 								<h2>Mobile Cashless Payment</h2>
 								<p class="icon-links">
@@ -501,10 +501,10 @@ CodeBurrow
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<a href="img/cyberpunks_2.jpg" data-lightbox-gallery="portfolio-gallery">
-							<img src="img/cyberpunks.jpg" alt="portfolio img"/>
+						<a href="http://fabgraphics.gr/" data-lightbox-gallery="portfolio-gallery">
+							<img src="img/fab3.png" alt="portfolio img"/>
 							<figcaption>
-								<h2>Landing Page </h2>
+								<h2>Portfolio - Graphic Designer</h2>
 								<p class="icon-links">
 								<span
 									class="icon icon-attachment"></span>
