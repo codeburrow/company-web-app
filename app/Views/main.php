@@ -328,7 +328,7 @@ CodeBurrow
 				</div>
 			</div>
 
-			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
+			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
 				<div class="team-wrapper">
 					<img src="img/shot_George_cb.jpg" class="img-responsive" alt="George img">
 					<div class="team-des">
@@ -336,15 +336,15 @@ CodeBurrow
 						<h3>Android Developer</h3>
 						<ul class="social-icon">
 							<li><a href="https://github.com/george-sp" class="fa fa-github wow fadeIn"
-							       data-wow-delay="0.6s"></a></li>
+							       data-wow-delay="0.4s"></a></li>
 							<li><a href="https://www.linkedin.com/in/spiridakis" class="fa fa-linkedin wow fadeIn"
-							       data-wow-delay="0.6s"></a></li>
+							       data-wow-delay="0.4s"></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="1.3s">
+			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
 				<div class="team-wrapper">
 					<img src="img/shot_Riz_cb.jpg" class="img-responsive" alt="Rizart img">
 					<div class="team-des">
@@ -352,15 +352,15 @@ CodeBurrow
 						<h3>Senior Developer</h3>
 						<ul class="social-icon">
 							<li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"
-							       data-wow-delay="0.6s"></a></li>
+							       data-wow-delay="0.4s"></a></li>
 							<li><a href="https://gr.linkedin.com/in/rizart "
-							       class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
+							       class="fa fa-linkedin wow fadeIn" data-wow-delay="0.4s"></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
+			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
 				<div class="team-wrapper">
 					<img src="img/shot_Nourhan_cb.jpg" class="img-responsive" alt="Nourhan img">
 					<div class="team-des">
@@ -368,15 +368,15 @@ CodeBurrow
 						<h3>Web Developer</h3>
 						<ul class="social-icon">
 							<li><a href="https://github.com/NourhanElshenawi" class="fa fa-github wow fadeIn"
-							       data-wow-delay="0.6s"></a></li>
+							       data-wow-delay="0.4s"></a></li>
 							<li><a href="https://www.linkedin.com/in/nshenawi" class="fa fa-linkedin wow fadeIn"
-							       data-wow-delay="0.6s"></a></li>
+							       data-wow-delay="0.4s"></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
+			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
 				<div class="team-wrapper">
 					<img src="img/shot_Antony_cb.jpg" class="img-responsive" alt="Antony img">
 					<div class="team-des">
@@ -384,9 +384,9 @@ CodeBurrow
 						<h3>CEO</h3>
 						<ul class="social-icon">
 							<li><a href="https://github.com/PadawanTony" class="fa fa-github wow fadeIn"
-							       data-wow-delay="0.6s"></a></li>
+							       data-wow-delay="0.4s"></a></li>
 							<li><a href="https://www.linkedin.com/in/antonykal" class="fa fa-linkedin wow fadeIn"
-							       data-wow-delay="0.6s"></a></li>
+							       data-wow-delay="0.4s"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -637,7 +637,7 @@ CodeBurrow
 			<!-- Contact form section
 			================================================== -->
 			<div class="col-md-offset-1 col-md-10 col-sm-12">
-				<form action="/#contact" method="POST" class="wow fadeInUp" data-wow-delay="0.6s">
+				<form action="/#contact" method="POST" class="wow fadeInUp" data-wow-delay="0.4s">
 					<div class="col-md-4 col-sm-6">
 						<input type="text" class="form-control" placeholder="Name" name="name">
 					</div>
