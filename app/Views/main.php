@@ -47,7 +47,7 @@ CodeBurrow
 	<div class="site-slider">
 		<ul class="bxslider">
 			<li>
-				<img src="images/slider/slide1.jpg" alt="slider image 1">
+				<img src="images/slider/img1.jpg" alt="slider image 1">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -60,7 +60,7 @@ CodeBurrow
 				</div>
 			</li>
 			<li>
-				<img src="images/slider/slide2.jpg" alt="slider image 2">
+				<img src="images/slider/img2.png" alt="slider image 2">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -73,7 +73,7 @@ CodeBurrow
 				</div>
 			</li>
 			<li>
-				<img src="images/slider/slide3.jpg" alt="slider image 3">
+				<img src="images/slider/img3.jpg" style="opacity: 0.5;" alt="slider image 3">
 				<div class="container caption-wrapper">
 					<div class="slider-caption">
 						<h2>Mobile Apps</h2>
@@ -82,7 +82,7 @@ CodeBurrow
 				</div>
 			</li>
 			<li>
-				<img src="images/slider/slide4.jpg" alt="slider image 4">
+				<img src="images/slider/img4.jpg" style="opacity: 0.6;" alt="slider image 4">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -96,14 +96,17 @@ CodeBurrow
 				</div>
 			</li>
 			<li>
-				<img src="images/slider/slide5.jpg" alt="slider image 5">
+				<img src="images/slider/img5.jpg" style="opacity: 0.5;" alt="slider image 5">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="slider-caption">
 								<h2>Teamwork</h2>
-								<p class="color-white">It's all about collaboration. Bring the business perspective and
-									we'll bring the technical know-how.</p>
+								<p class="color-white">
+									It's all about collaboration.
+									<br>
+									Bring the business perspective and we'll bring the technical know-how.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -115,11 +118,11 @@ CodeBurrow
 				<div class="row">
 					<div class="col-md-12">
 						<div id="bx-pager">
-							<a data-slide-index="0" href=""><img src="images/slider/thumb1.jpg" alt="thumbnail 1"/></a>
-							<a data-slide-index="1" href=""><img src="images/slider/thumb2.jpg" alt="thumbnail 2"/></a>
-							<a data-slide-index="2" href=""><img src="images/slider/thumb3.jpg" alt="thumbnail 3"/></a>
-							<a data-slide-index="3" href=""><img src="images/slider/thumb4.jpg" alt="thumbnail 4"/></a>
-							<a data-slide-index="4" href=""><img src="images/slider/thumb5.jpg" alt="thumbnail 5"/></a>
+							<a data-slide-index="0" href=""><img src="images/slider/thumb_img1.jpg" alt="thumbnail 1"/></a>
+							<a data-slide-index="1" href=""><img src="images/slider/thumb_img2.jpg" alt="thumbnail 2"/></a>
+							<a data-slide-index="2" href=""><img src="images/slider/thumb_img3.jpg" alt="thumbnail 3"/></a>
+							<a data-slide-index="3" href=""><img src="images/slider/thumb_img4.jpg" alt="thumbnail 4"/></a>
+							<a data-slide-index="4" href=""><img src="images/slider/thumb_img5.jpg" alt="thumbnail 5"/></a>
 						</div>
 					</div>
 				</div>

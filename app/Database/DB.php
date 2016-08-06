@@ -14,7 +14,7 @@ class DB
     protected $conn;
 
     /**
-     * DB constructor. By default connect to Homestead virtual DB server and to the 'kourtis' database schema.
+     * DB constructor. By default connect to Homestead virtual DB server and to the 'company-web-app' database schema.
      * @param string $servername
      * @param string $port
      * @param string $dbname
