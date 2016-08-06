@@ -346,14 +346,14 @@ CodeBurrow
 
 			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
 				<div class="team-wrapper">
-					<img src="img/shot_Riz_cb.jpg" class="img-responsive" alt="Rizart img">
+					<img src="img/shot_Angie_cb.jpg" class="img-responsive" alt="Angie img">
 					<div class="team-des">
-						<h4>Rizart Dokollari</h4>
-						<h3>Senior Developer</h3>
+						<h4>Angie Manolopoulou</h4>
+						<h3>Graphic Designer</h3>
 						<ul class="social-icon">
-							<li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"
-							       data-wow-delay="0.4s"></a></li>
-							<li><a href="https://gr.linkedin.com/in/rizart "
+<!--							<li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"-->
+<!--							       data-wow-delay="0.4s"></a></li>-->
+							<li><a href="https://www.linkedin.com/in/amanolopoulou"
 							       class="fa fa-linkedin wow fadeIn" data-wow-delay="0.4s"></a></li>
 						</ul>
 					</div>
