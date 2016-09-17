@@ -2,6 +2,9 @@
 
 The official web page for CodeBurrow.com
 
+## Deployment
+ - composer install --no-dev
+
 ## Required Steps
 ### Increase speed load according to Google page speed insights #19
 #### [Enable Compression](https://www.digitalocean.com/community/tutorials/how-to-optimize-nginx-configuration#gzip-compression)
