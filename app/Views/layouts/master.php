@@ -21,12 +21,15 @@
 <!--        <link rel="stylesheet" href="css/animate.min.css">-->
 <!--        <link rel="stylesheet" href="css/font-awesome.min.css">-->
 <!--        <link rel="stylesheet" href="css/et-line-font.css">-->
-    <!--    <link rel="stylesheet" href="css/nivo-lightbox.css">-->
-    <!--    <link rel="stylesheet" href="css/nivo_themes/default/default.css">-->
-    <!--    <link rel="stylesheet" href="css/owl.theme.css">-->
-    <!--    <link rel="stylesheet" href="css/owl.carousel.css">-->
+
+<!--        <link rel="stylesheet" href="css/nivo-lightbox.css">-->
+
+<!--        <link rel="stylesheet" href="css/nivo_themes/default/default.css">-->
+<!--        <link rel="stylesheet" href="css/owl.theme.css">-->
+<!--        <link rel="stylesheet" href="css/owl.carousel.css">-->
 <!--    <link rel="stylesheet" href="css/bxslider.css">-->
 <!--    <link rel="stylesheet" href="css/style.css">-->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -70,8 +73,7 @@
     </div>
 </footer>
 
-<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
-<script src="build/master.min.js" async onload="initTinymce"></script>
+<input type="hidden" name="styleSheetUrls[]" value="build/master.min.css" />
 <script>
     function initTinymce() {
         tinymce.init({
@@ -80,7 +82,7 @@
         });
     }
 </script>
-
+<script src="build/master.min.js" async onload="initTinymce()"></script>
 </body>
 </html>
 
