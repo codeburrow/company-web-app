@@ -32,7 +32,7 @@ class DB
         $this->port = is_null($port) ? getenv('DB_PORT') : $port;
         $this->dbname = is_null($dbname) ? getenv('DB_DATABASE') : $dbname;
         $this->username = is_null($username) ? getenv('DB_USERNAME') : $username;
-        $this->password = is_null($password) ? getenv('DB_PASSWORD') : $username;
+        $this->password = is_null($password) ? getenv('DB_PASSWORD') : $password;
 
         $this->connect();
     }
@@ -40,7 +40,7 @@ class DB
     public function connect()
     {
         try {
-            $conn = new PDO("mysql:host=$this->servername;port:$this->port;dbname=$this->servername", $this->username,
+            $conn = new PDO("mysql:host=$this->servername;port:$this->port;dbname=$this->dbname", $this->username,
                 $this->password);
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->conn = $conn;
