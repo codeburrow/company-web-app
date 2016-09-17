@@ -73,15 +73,15 @@
     </div>
 </footer>
 
-<input type="hidden" name="styleSheetUrls[]" value="build/master.min.css"/>
+<!--<input type="hidden" name="styleSheetUrls[]" value="build/master.min.css"/>-->
 <input type="hidden" name="styleSheetUrls[]" value="https://fonts.googleapis.com/css?family=Raleway:700"/>
 
 <script>
     function initTinymce() {
-//        tinymce.init({
-//            selector: '.mytextarea',
-//            plugins: 'advlist autolink link image lists charmap print preview'
-//        });
+        tinymce.init({
+            selector: '.mytextarea',
+            plugins: 'advlist autolink link image lists charmap print preview'
+        });
     }
 </script>
 <script src="build/master.min.js" async onload="initTinymce()"></script>

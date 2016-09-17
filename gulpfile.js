@@ -39,18 +39,22 @@ gulp.task('css', function () {
             './public/css/bxslider.css',
             './public/css/nivo-lightbox.css',
             './public/css/nivo_themes/default/default.css',
-            './public/css/style.css'
+            './public/css/style.css',
+            './public/css/et-line-font.css',
+            './public/css/owl.theme.css',
+            './public/css/owl.carousel.css',
+            'https://fonts.googleapis.com/css?family=Raleway:700'
         ])
         .pipe(concat('above-the-fold.min.css'))
         .pipe(cleanCss())
         .pipe(gulp.dest(buildDirectory));
 
-    gulp.src([
-            './public/css/et-line-font.css',
-            './public/css/owl.theme.css',
-            './public/css/owl.carousel.css',
-        ])
-        .pipe(concat('master.min.css'))
-        .pipe(cleanCss())
-        .pipe(gulp.dest(buildDirectory));
+    // gulp.src([
+    //         './public/css/et-line-font.css',
+    //         './public/css/owl.theme.css',
+    //         './public/css/owl.carousel.css',
+    //     ])
+    //     .pipe(concat('master.min.css'))
+    //     .pipe(cleanCss())
+    //     .pipe(gulp.dest(buildDirectory));
 });
