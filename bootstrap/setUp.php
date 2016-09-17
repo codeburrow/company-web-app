@@ -5,4 +5,5 @@
  */
 require __DIR__.'/../vendor/autoload.php';
 require __DIR__.'/setUpHeaders.php';
+require __DIR__.'/setUpCredentials.php';
 

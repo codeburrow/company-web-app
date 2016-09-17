@@ -21,13 +21,18 @@ class DB
      * @param string $username
      * @param string $password
      */
-    public function __construct($servername = "127.0.0.1", $port = "3306", $dbname = "company-web-app", $username = "root", $password = "thisisfun0007")
-    {
-        $this->servername = $servername;
-        $this->port = $port;
-        $this->dbname = $dbname;
-        $this->username = $username;
-        $this->password = $password;
+    public function __construct(
+        $servername = null,
+        $port = null,
+        $dbname = null,
+        $username = null,
+        $password = null
+    ) {
+        $this->servername = is_null($servername) ? getenv('DB_HOST') : $servername;
+        $this->port = is_null($port) ? getenv('DB_PORT') : $port;
+        $this->dbname = is_null($dbname) ? getenv('DB_DATABASE') : $dbname;
+        $this->username = is_null($username) ? getenv('DB_USERNAME') : $username;
+        $this->password = is_null($password) ? getenv('DB_PASSWORD') : $username;
 
         $this->connect();
     }
@@ -35,13 +40,12 @@ class DB
     public function connect()
     {
         try {
-            $conn = new PDO("mysql:host=$this->servername;port:$this->port;dbname=$this->servername", $this->username, $this->password);
-            // set the PDO error mode to exception
+            $conn = new PDO("mysql:host=$this->servername;port:$this->port;dbname=$this->servername", $this->username,
+                $this->password);
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->conn = $conn;
-//            echo "Connected successfully";
         } catch (PDOException $e) {
-            echo "Connection failed: " . $e->getMessage();
+            echo "Connection failed: ".$e->getMessage();
         }
     }
 
