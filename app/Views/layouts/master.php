@@ -4,8 +4,6 @@
 
     <meta charset="utf-8">
 
-    <!-- Template site title
-   ================================================== -->
     <title><?= $this->section('title'); ?></title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -14,29 +12,22 @@
     <meta name="description" content="">
 
     <link rel="shortcut icon" href="img/logo_trans.png">
-    <!--
 
-    Template 2078 Adventure
+    <style>
+       <?= file_get_contents('build/above-the-fold.min.css'); ?>
+    </style>
 
-    http://www.tooplate.com/view/2078-adventure
+<!--        <link rel="stylesheet" href="css/bootstrap.min.css">-->
+<!--        <link rel="stylesheet" href="css/animate.min.css">-->
+<!--        <link rel="stylesheet" href="css/font-awesome.min.css">-->
+<!--        <link rel="stylesheet" href="css/et-line-font.css">-->
+    <!--    <link rel="stylesheet" href="css/nivo-lightbox.css">-->
+    <!--    <link rel="stylesheet" href="css/nivo_themes/default/default.css">-->
+    <!--    <link rel="stylesheet" href="css/owl.theme.css">-->
+    <!--    <link rel="stylesheet" href="css/owl.carousel.css">-->
+<!--    <link rel="stylesheet" href="css/bxslider.css">-->
+<!--    <link rel="stylesheet" href="css/style.css">-->
 
-    -->
-    <!-- Bootstrap CSS
-   ================================================== -->
-        <link rel="stylesheet" href="build/above-the-fold.min.css">
-
-<!--    <link rel="stylesheet" href="css/bootstrap.min.css">-->
-<!--    <link rel="stylesheet" href="css/animate.min.css">-->
-<!--    <link rel="stylesheet" href="css/font-awesome.min.css">-->
-<!--    <link rel="stylesheet" href="css/et-line-font.css">-->
-    <link rel="stylesheet" href="css/nivo-lightbox.css">
-    <link rel="stylesheet" href="css/nivo_themes/default/default.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/bxslider.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -79,6 +70,7 @@
     </div>
 </footer>
 
+<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
 <script src="build/master.min.js" async onload="initTinymce"></script>
 <script>
     function initTinymce() {
