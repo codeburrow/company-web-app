@@ -43,7 +43,7 @@ gulp.task('css', function () {
             './public/css/et-line-font.css',
             './public/css/owl.theme.css',
             './public/css/owl.carousel.css',
-            'https://fonts.googleapis.com/css?family=Raleway:700'
+            './public/css/fonts.googleapis.raleway.700.css'
         ])
         .pipe(concat('above-the-fold.min.css'))
         .pipe(cleanCss())

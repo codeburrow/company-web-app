@@ -74,7 +74,7 @@
 </footer>
 
 <!--<input type="hidden" name="styleSheetUrls[]" value="build/master.min.css"/>-->
-<input type="hidden" name="styleSheetUrls[]" value="https://fonts.googleapis.com/css?family=Raleway:700"/>
+<!--<input type="hidden" name="styleSheetUrls[]" value="https://fonts.googleapis.com/css?family=Raleway:700"/>-->
 
 <script>
     function initTinymce() {
