@@ -1,5 +1,6 @@
 .idea/
 vendor/
 node_modules/
-
+.env
+public/bower_components/loadcss/
 tests/_output/*

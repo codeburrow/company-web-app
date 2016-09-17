@@ -11,7 +11,7 @@
 	background: #666;
 	background: rgba(0,0,0,0.6); 
 }
-.nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { background: url(loading.gif) no-repeat 50% 50%; }
+.nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { background: url(css/nivo_themes/default/loading.gif) no-repeat 50% 50%; }
 
 .nivo-lightbox-theme-default .nivo-lightbox-nav {
 	top: 10%;
@@ -27,17 +27,17 @@
 	background-color: rgba(0,0,0,0.5);
 }
 .nivo-lightbox-theme-default .nivo-lightbox-prev { 
-	background-image: url(prev.png); 
+	background-image: url(css/nivo_themes/default/prev.png);
 	border-radius: 0 3px 3px 0;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-next { 
-	background-image: url(next.png); 
+	background-image: url(css/nivo_themes/default/next.png);
 	border-radius: 3px 0 0 3px;
 }
 
 .nivo-lightbox-theme-default .nivo-lightbox-close {
 	display: block;
-	background: url(close.png) no-repeat;
+	background: url(css/nivo_themes/default/close.png) no-repeat;
 	width: 48px;
 	height: 48px;
 	text-indent: -9999px;
@@ -77,22 +77,22 @@
        (min-resolution: 1.3dppx) {
 
 	.nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { 
-		background-image: url(loading@2x.gif); 
+		background-image: url(css/nivo_themes/default/loading@2x.gif);
 		-webkit-background-size: 32px 32px; 
 		        background-size: 32px 32px;
 	}
 	.nivo-lightbox-theme-default .nivo-lightbox-prev { 
-		background-image: url(prev@2x.png); 
+		background-image: url(css/nivo_themes/default/prev@2x.png);
 		-webkit-background-size: 48px 48px; 
 		        background-size: 48px 48px;
 	}
 	.nivo-lightbox-theme-default .nivo-lightbox-next { 
-		background-image: url(next@2x.png); 
+		background-image: url(css/nivo_themes/default/next@2x.png);
 		-webkit-background-size: 48px 48px; 
 		        background-size: 48px 48px;
 	}
 	.nivo-lightbox-theme-default .nivo-lightbox-close { 
-		background-image: url(close@2x.png); 
+		background-image: url(css/nivo_themes/default/close@2x.png);
 		-webkit-background-size: 16px 16px; 
 		        background-size: 16px 16px;
 	}
