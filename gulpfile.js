@@ -21,8 +21,8 @@ gulp.task('js', function () {
             './public/js/owl.carousel.min.js',
             './public/js/wow.min.js',
             './public/js/nivo-lightbox.min.js',
-            './public/js/custom.js',
-            './public/js/loadStyleSheets.js'
+            './public/js/loadStyleSheets.js',
+            './public/js/custom.js'
         ])
         .pipe(concat('concat.js'))
         .pipe(rename('master.min.js'))
