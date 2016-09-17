@@ -17,20 +17,6 @@
         <?= file_get_contents('build/above-the-fold.min.css'); ?>
     </style>
 
-    <!--        <link rel="stylesheet" href="css/bootstrap.min.css">-->
-    <!--        <link rel="stylesheet" href="css/animate.min.css">-->
-    <!--        <link rel="stylesheet" href="css/font-awesome.min.css">-->
-    <!--        <link rel="stylesheet" href="css/et-line-font.css">-->
-    <!---->
-    <!--        <link rel="stylesheet" href="css/nivo-lightbox.css">-->
-    <!---->
-    <!--        <link rel="stylesheet" href="css/nivo_themes/default/default.css">-->
-    <!--        <link rel="stylesheet" href="css/owl.theme.css">-->
-    <!--        <link rel="stylesheet" href="css/owl.carousel.css">-->
-    <!--    <link rel="stylesheet" href="css/bxslider.css">-->
-    <!--    <link rel="stylesheet" href="css/style.css">-->
-    <!--    <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>-->
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -72,9 +58,6 @@
         </div>
     </div>
 </footer>
-
-<!--<input type="hidden" name="styleSheetUrls[]" value="build/master.min.css"/>-->
-<!--<input type="hidden" name="styleSheetUrls[]" value="https://fonts.googleapis.com/css?family=Raleway:700"/>-->
 
 <script>
     function initTinymce() {
