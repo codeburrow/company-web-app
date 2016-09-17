@@ -453,7 +453,7 @@ CodeBurrow
 						<a href="https://deree-judge.herokuapp.com/professor/Maira-Kotsovoulou" data-lightbox-gallery="portfolio-gallery">
 							<img src="img/judge.png" alt="portfolio img"/>
 							<figcaption>
-								<h2>Mobile Cashless Payment</h2>
+								<h2>DEREE Judge</h2>
 								<p class="icon-links">
 								<span
 									class="icon icon-attachment"></span>
