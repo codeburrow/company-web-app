@@ -20,5 +20,8 @@
     "psr-4": {
       "Burrow\\": "app/"
     }
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.2"
   }
 }
