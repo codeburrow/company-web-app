@@ -8,14 +8,16 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="codeburrow, web, software, development, design">
+    <meta name="keywords" content="codeburrow, web, software, development, design, startup">
     <meta name="description" content="">
 
-    <link rel="shortcut icon" href="img/logo_trans.png">
+    <link rel="shortcut icon" href="/img/logo_trans.png">
 
     <style>
         <?= file_get_contents('build/above-the-fold.min.css'); ?>
     </style>
+
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 
 </head>
 
@@ -24,11 +26,10 @@
 
 <!-- Preloader section
 ================================================== -->
-<section class="preloader">
-
-    <div class="sk-rotating-plane"></div>
-
-</section>
+<!--<section class="preloader">-->
+<!---->
+<!--    <div class="sk-rotating-plane"></div>-->
+<!--</section>-->
 
 
 <!-- Content section

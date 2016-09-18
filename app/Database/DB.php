@@ -51,8 +51,6 @@ class DB
 
     public function getAllPosts()
     {
-        $dbname = $this->dbname;
-
         $stmt = $this->conn->prepare("SELECT * FROM `$this->dbname`.posts");
         $stmt->execute();
 
