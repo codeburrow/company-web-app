@@ -64,7 +64,15 @@
     function initTinymce() {
         tinymce.init({
             selector: '.mytextarea',
-            plugins: 'advlist autolink link image lists charmap print preview'
+            theme: 'modern',
+            plugins: [
+                'advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker',
+                'searchreplace wordcount visualblocks visualchars code fullpage fullscreen insertdatetime media nonbreaking',
+                'save table contextmenu directionality emoticons template paste textcolor'
+            ],
+            content_css: 'css/content.css',
+            toolbar: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media | forecolor backcolor emoticons',
+            entity_encoding : 'raw'
         });
     }
 </script>
