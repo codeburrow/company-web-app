@@ -417,7 +417,7 @@ CodeBurrow
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
-						<a href="/img/bustracker_mobile.png">
+						<a href="img/bustracker_mobile.png" data-lightbox-gallery="portfolio-gallery">
 							<img src="img/bustracker_web.png" alt="portfolio img"/>
 							<figcaption>
 								<h2> Track Vehicles in Real-Time </h2>
