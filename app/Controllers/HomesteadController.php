@@ -190,7 +190,7 @@ class HomesteadController extends Controller
     {
         $urlToPost = "/admin_homestead";
         
-        $posts = $this->DB->getAllPosts();
+        $posts = $this->DB->getAllPosts('DESC');
 
         return $this->views->render('admin', compact('posts', 'urlToPost'));
     }

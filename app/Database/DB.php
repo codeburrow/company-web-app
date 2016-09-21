@@ -49,9 +49,9 @@ class DB
         }
     }
 
-    public function getAllPosts()
+    public function getAllPosts($order = 'ASC')
     {
-        $stmt = $this->conn->prepare("SELECT * FROM `$this->dbname`.posts");
+        $stmt = $this->conn->prepare("SELECT * FROM `$this->dbname`.posts ORDER BY id $order");
         $stmt->execute();
 
         // set the resulting array to associative

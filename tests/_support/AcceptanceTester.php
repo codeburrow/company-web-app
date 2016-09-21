@@ -116,9 +116,9 @@ class AcceptanceTester extends \Codeception\Actor
     }
 
     /**
-     * @Given I have posts in database
+     * @Given I have a post in database
      */
-    public function iHavePostsInDatabase(\Behat\Gherkin\Node\TableNode $posts)
+    public function iHaveAPostInDatabase(\Behat\Gherkin\Node\TableNode $posts)
     {
         // iterate over all rows
         foreach ($posts->getRows() as $index => $row) {
@@ -135,14 +135,42 @@ class AcceptanceTester extends \Codeception\Actor
      */
     public function iGoToThePostsPage()
     {
-        throw new \Codeception\Exception\Incomplete("Step `I go to the posts page` is not defined");
+        $this->amOnPage('/admin_homestead');
+        $this->seeCurrentUrlEquals('/admin_homestead');
+        $this->wait(1);
     }
 
     /**
-     * @Then I should see posts data
+     * @Then I should see this last post
      */
-    public function iShouldSeePostsData()
+    public function iShouldSeeThisLastPost(\Behat\Gherkin\Node\TableNode $posts)
     {
-        throw new \Codeception\Exception\Incomplete("Step `I should see posts data` is not defined");
+        foreach ($posts->getRows() as $index => $post) {
+            if ($index === 0) { // first row to define fields
+                continue;
+            }
+
+            $postId = $post[0];
+            $authorName = $post[1];
+            $postTitle = $post[2];
+            $postContent = $post[3];
+
+            $idIdentifier = "theID-$postId";
+            $authorIdentifier = "author-$postId";
+            $titleIdentifier = "title-$postId";
+            $contentIdentifier = "content-$postId";
+
+            $enableIdSelector = "$('#".$idIdentifier."').removeAttr('readonly')";
+            $this->executeJS($enableIdSelector);
+
+            $this->see($postTitle);
+
+            $this->seeInField(['id' => $idIdentifier], $postId);
+            $this->seeInField(['id' => $authorIdentifier], $authorName);
+            $this->seeInField(['id' => $titleIdentifier], $postTitle);
+            $this->wait(3);
+//            $this->see($postContent);
+            $this->seeInField($contentIdentifier, $postContent);
+        }
     }
 }
