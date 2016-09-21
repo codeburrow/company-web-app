@@ -114,4 +114,35 @@ class AcceptanceTester extends \Codeception\Actor
     {
         $this->seeInSource('<iframe src="https://deree-judge.herokuapp.com/professor/Maira-Kotsovoulou" class="nivo-lightbox-item" frameborder="0" vspace="0" hspace="0" scrolling="auto"></iframe>');
     }
+
+    /**
+     * @Given I have posts in database
+     */
+    public function iHavePostsInDatabase(\Behat\Gherkin\Node\TableNode $posts)
+    {
+        // iterate over all rows
+        foreach ($posts->getRows() as $index => $row) {
+            if ($index === 0) { // first row to define fields
+                $keys = $row;
+                continue;
+            }
+            $this->haveInDatabase('posts', array_combine($keys, $row));
+        }
+    }
+
+    /**
+     * @When I go to the posts page
+     */
+    public function iGoToThePostsPage()
+    {
+        throw new \Codeception\Exception\Incomplete("Step `I go to the posts page` is not defined");
+    }
+
+    /**
+     * @Then I should see posts data
+     */
+    public function iShouldSeePostsData()
+    {
+        throw new \Codeception\Exception\Incomplete("Step `I should see posts data` is not defined");
+    }
 }
