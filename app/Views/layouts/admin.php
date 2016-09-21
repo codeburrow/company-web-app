@@ -17,6 +17,8 @@
         <?= file_get_contents('build/above-the-fold.min.css'); ?>
     </style>
 
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">

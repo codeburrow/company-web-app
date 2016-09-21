@@ -1,4 +1,4 @@
-<?= $this->layout('layouts/master'); ?>
+<?= $this->layout('layouts/admin'); ?>
 
 <?php $this->start('title') ?>
 
