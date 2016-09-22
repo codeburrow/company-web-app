@@ -9,6 +9,14 @@ modules:
   enabled:
       - WebDriver
       - \Helper\Acceptance
+      - Db:
+         dsn: 'mysql:host=codeburrow.app;dbname=company-web-app'
+         user: 'homestead'
+         password: 'secret'
+         dump: 'tests/_data/dump.sql'
+         populate: true
+         cleanup: true
+         reconnect: true
   config:
       WebDriver:
         url: 'http://codeburrow.app'
@@ -19,4 +27,3 @@ env:
           WebDriver:
             url: 'http://codeburrow.app'
             browser: 'chrome'
-

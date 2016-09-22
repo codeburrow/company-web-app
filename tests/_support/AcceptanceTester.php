@@ -114,4 +114,66 @@ class AcceptanceTester extends \Codeception\Actor
     {
         $this->seeInSource('<iframe src="https://deree-judge.herokuapp.com/professor/Maira-Kotsovoulou" class="nivo-lightbox-item" frameborder="0" vspace="0" hspace="0" scrolling="auto"></iframe>');
     }
+
+    /**
+     * @Given I have a post in database
+     */
+    public function iHaveAPostInDatabase(\Behat\Gherkin\Node\TableNode $posts)
+    {
+        // iterate over all rows
+        foreach ($posts->getRows() as $index => $row) {
+            if ($index === 0) { // first row to define fields
+                $keys = $row;
+                continue;
+            }
+            $this->haveInDatabase('posts', array_combine($keys, $row));
+        }
+    }
+
+    /**
+     * @When I go to the posts page
+     */
+    public function iGoToThePostsPage()
+    {
+        $this->amOnPage('/admin_homestead');
+        $this->seeCurrentUrlEquals('/admin_homestead');
+        $this->wait(1);
+    }
+
+    /**
+     * @Then I should see this last post
+     */
+    public function iShouldSeeThisLastPost(\Behat\Gherkin\Node\TableNode $posts)
+    {
+        foreach ($posts->getRows() as $index => $post) {
+            if ($index === 0) { // first row to define fields
+                continue;
+            }
+
+            $postId = $post[0];
+            $authorName = $post[1];
+            $postTitle = $post[2];
+            $postContent = $post[3];
+
+            $idIdentifier = "theID-$postId";
+            $authorIdentifier = "author-$postId";
+            $titleIdentifier = "title-$postId";
+            $contentIdentifier = "content-$postId";
+
+            $this->scrollTo(Locator::find('h5', ['id' => "header-$postTitle"]));
+
+            $enableIdSelector = "$('#".$idIdentifier."').removeAttr('readonly')";
+            $this->executeJS($enableIdSelector);
+
+            $this->see($postTitle);
+
+            $this->seeInField(['id' => $idIdentifier], $postId);
+            $this->seeInField(['id' => $authorIdentifier], $authorName);
+            $this->seeInField(['id' => $titleIdentifier], $postTitle);
+
+            $this->seeInSource('<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>');
+            $this->switchToIFrame($contentIdentifier.'_ifr');
+            $this->see($postContent);
+        }
+    }
 }
