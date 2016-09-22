@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": "^7.0",
+    "php": ">=7.0",
     "corneltek/pux": "^1.5",
     "league/plates": "^3.1",
     "raveren/kint": "^1.0",
@@ -23,6 +23,7 @@
     }
   },
   "require-dev": {
-    "codeception/codeception": "^2.2"
+    "codeception/codeception": "^2.2",
+    "php": ">=7.0"
   }
 }
