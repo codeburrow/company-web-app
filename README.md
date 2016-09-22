@@ -25,3 +25,6 @@ Inside your server block (E.g. /etc/nginx/sites-available/codeburrow.rdok.io )
         expires 365d;
 	}
 ```
+
+## Optimization
+[How To Configure Apache Content Caching on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-configure-apache-content-caching-on-ubuntu-14-04]
