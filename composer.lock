@@ -113,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/c9s/CodeGen.git",
-                "reference": "b2a1835b4a0c63cb5f1c1c0a44176adbbfd46dcd"
+                "reference": "265b089d07e73ebd1a4057a1e760ae519969e245"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/c9s/CodeGen/zipball/265b089d07e73ebd1a4057a1e760ae519969e245",
-                "reference": "b2a1835b4a0c63cb5f1c1c0a44176adbbfd46dcd",
+                "reference": "265b089d07e73ebd1a4057a1e760ae519969e245",
                 "shasum": ""
             },
             "require": {
