@@ -171,6 +171,7 @@ class AcceptanceTester extends \Codeception\Actor
             $this->seeInField(['id' => $authorIdentifier], $authorName);
             $this->seeInField(['id' => $titleIdentifier], $postTitle);
 
+            $this->seeInSource('<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>');
             $this->switchToIFrame($contentIdentifier.'_ifr');
             $this->see($postContent);
         }
