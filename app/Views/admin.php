@@ -44,7 +44,7 @@ Dashboard
                 ================================================== -->
                 <div class="col-sm-12">
                     <div class="section-title ">
-                        <h5 style="margin-bottom: 60px;"><?php echo $post['title']; ?></h5>
+                        <h5 style="margin-bottom: 60px;" id="<?php echo "header-{$post['title']}"; ?>"><?php echo $post['title']; ?></h5>
                         <form role="form" action="<?php echo $urlToPost; ?>" method="post">
                             <div style="text-align: left" class="form-group">
                                 <label for="<?php echo $idSelector; ?>">ID: </label>

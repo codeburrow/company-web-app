@@ -160,6 +160,8 @@ class AcceptanceTester extends \Codeception\Actor
             $titleIdentifier = "title-$postId";
             $contentIdentifier = "content-$postId";
 
+            $this->scrollTo(Locator::find('h5', ['id' => "header-$postTitle"]));
+
             $enableIdSelector = "$('#".$idIdentifier."').removeAttr('readonly')";
             $this->executeJS($enableIdSelector);
 
@@ -168,9 +170,9 @@ class AcceptanceTester extends \Codeception\Actor
             $this->seeInField(['id' => $idIdentifier], $postId);
             $this->seeInField(['id' => $authorIdentifier], $authorName);
             $this->seeInField(['id' => $titleIdentifier], $postTitle);
-            $this->wait(3);
-//            $this->see($postContent);
-            $this->seeInField($contentIdentifier, $postContent);
+
+            $this->switchToIFrame($contentIdentifier.'_ifr');
+            $this->see($postContent);
         }
     }
 }
