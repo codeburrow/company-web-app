@@ -328,7 +328,7 @@ CodeBurrow
 				</div>
 			</div>
 
-			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
 				<div class="team-wrapper">
 					<img src="img/shot_George_cb.jpg" class="img-responsive" alt="George img">
 					<div class="team-des">
@@ -344,23 +344,23 @@ CodeBurrow
 				</div>
 			</div>
 
-			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-				<div class="team-wrapper">
-					<img src="img/shot_Angie_cb.jpg" class="img-responsive" alt="Angie img">
-					<div class="team-des">
-						<h4>Angie Manolopoulou</h4>
-						<h3>Graphic Designer</h3>
-						<ul class="social-icon">
-<!--							<li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"-->
-<!--							       data-wow-delay="0.4s"></a></li>-->
-							<li><a href="https://www.linkedin.com/in/amanolopoulou"
-							       class="fa fa-linkedin wow fadeIn" data-wow-delay="0.4s"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-wrapper">
+                    <img src="img/shot_Antony_cb.jpg" class="img-responsive" alt="Antony img">
+                    <div class="team-des">
+                        <h4>Antony Kalogeropoulos</h4>
+                        <h3>CEO</h3>
+                        <ul class="social-icon">
+                            <li><a href="https://github.com/PadawanTony" class="fa fa-github wow fadeIn"
+                                   data-wow-delay="0.4s"></a></li>
+                            <li><a href="https://www.linkedin.com/in/antonykal" class="fa fa-linkedin wow fadeIn"
+                                   data-wow-delay="0.4s"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
 				<div class="team-wrapper">
 					<img src="img/shot_Nourhan_cb.jpg" class="img-responsive" alt="Nourhan img">
 					<div class="team-des">
@@ -376,21 +376,53 @@ CodeBurrow
 				</div>
 			</div>
 
-			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-wrapper">
+                    <img src="img/shot_Riz_cb.jpg" class="img-responsive" alt="George img">
+                    <div class="team-des">
+                        <h4>Rizart Dokollart</h4>
+                        <h3>Full Stack Developer</h3>
+                        <ul class="social-icon">
+                            <li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"
+                                   data-wow-delay="0.4s"></a></li>
+                            <li><a href="https://www.linkedin.com/in/rizart-dokollari-a3643360" class="fa fa-linkedin wow fadeIn"
+                                   data-wow-delay="0.4s"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
 				<div class="team-wrapper">
-					<img src="img/shot_Antony_cb.jpg" class="img-responsive" alt="Antony img">
+					<img src="img/shot_Lut.jpg" class="img-responsive" alt="Antony img">
 					<div class="team-des">
-						<h4>Antony Kalogeropoulos</h4>
+						<h4>Constantine Lutas</h4>
 						<h3>CEO</h3>
 						<ul class="social-icon">
-							<li><a href="https://github.com/PadawanTony" class="fa fa-github wow fadeIn"
+							<li><a href="https://github.com/CLutas" class="fa fa-github wow fadeIn"
 							       data-wow-delay="0.4s"></a></li>
-							<li><a href="https://www.linkedin.com/in/antonykal" class="fa fa-linkedin wow fadeIn"
+							<li><a href="https://www.linkedin.com/in/constantine-lutas-55666229" class="fa fa-linkedin wow fadeIn"
 							       data-wow-delay="0.4s"></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
+
+            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-wrapper">
+                    <img src="img/shot_Angie_cb.jpg" class="img-responsive" alt="Angie img">
+                    <div class="team-des">
+                        <h4>Angie Manolopoulou</h4>
+                        <h3>Graphic Designer</h3>
+                        <ul class="social-icon">
+                            <!--							<li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"-->
+                            <!--							       data-wow-delay="0.4s"></a></li>-->
+                            <li><a href="https://www.linkedin.com/in/amanolopoulou"
+                                   class="fa fa-linkedin wow fadeIn" data-wow-delay="0.4s"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
 		</div>
 	</div>
@@ -414,13 +446,63 @@ CodeBurrow
 				</div>
 			</div>
 
+            <div class="col-md-4 col-sm-6">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <a href="http://www.athens-night.gr/map" data-lightbox-gallery="portfolio-gallery">
+                            <img src="img/athens_night.png" alt="portfolio img"/>
+                            <figcaption>
+                                <h2> Interactive map with Athens' night events</h2>
+                                <p class="icon-links">
+                                    <span class="icon icon-attachment"></span>
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <a href="http://fabgraphics.gr/" data-lightbox-gallery="portfolio-gallery">
+                            <img src="img/fab3.png" alt="portfolio img"/>
+                            <figcaption>
+                                <h2>Portfolio - Graphic Designer</h2>
+                                <p class="icon-links">
+								<span
+                                        class="icon icon-attachment"></span>
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <a href="img/ambassadors_register.png" data-lightbox-gallery="portfolio-gallery">
+                            <img src="img/ambassadors.jpg" alt="portfolio img"/>
+                            <figcaption>
+                                <h2>Event Planning Mobile App</h2>
+                                <p class="icon-links">
+								<span
+                                        class="icon icon-attachment"></span>
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+
 			<div class="col-md-4 col-sm-6">
 				<div class="grid">
 					<figure class="effect-zoe">
 						<a href="img/bustracker_mobile.png" data-lightbox-gallery="portfolio-gallery">
 							<img src="img/bustracker_web.png" alt="portfolio img"/>
 							<figcaption>
-								<h2> Track Vehicles in Real-Time </h2>
+								<h2> Real-Time Tracking for Vehicles </h2>
 								<p class="icon-links">
 									<span class="icon icon-attachment"></span>
 								</p>
@@ -464,56 +546,26 @@ CodeBurrow
 				</div>
 			</div>
 
-			<div class="col-md-4 col-sm-6">
-				<div class="grid">
-					<figure class="effect-zoe">
-						<a href="http://itpedia.apphb.com/" data-lightbox-gallery="portfolio-gallery">
-							<img src="img/itpedia.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>ITpedia</h2>
-								<p class="icon-links">
-								<span
-									class="icon icon-attachment"></span>
-								</p>
-							</figcaption>
-						</a>
-					</figure>
-				</div>
-			</div>
+<!--			<div class="col-md-4 col-sm-6">-->
+<!--				<div class="grid">-->
+<!--					<figure class="effect-zoe">-->
+<!--						<a href="http://itpedia.apphb.com/" data-lightbox-gallery="portfolio-gallery">-->
+<!--							<img src="img/itpedia.jpg" alt="portfolio img"/>-->
+<!--							<figcaption>-->
+<!--								<h2>ITpedia</h2>-->
+<!--								<p class="icon-links">-->
+<!--								<span-->
+<!--									class="icon icon-attachment"></span>-->
+<!--								</p>-->
+<!--							</figcaption>-->
+<!--						</a>-->
+<!--					</figure>-->
+<!--				</div>-->
+<!--			</div>-->
 
-			<div class="col-md-4 col-sm-6">
-				<div class="grid">
-					<figure class="effect-zoe">
-						<a href="img/ambassadors_register.png" data-lightbox-gallery="portfolio-gallery">
-							<img src="img/ambassadors.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Event Planning Mobile App</h2>
-								<p class="icon-links">
-								<span
-									class="icon icon-attachment"></span>
-								</p>
-							</figcaption>
-						</a>
-					</figure>
-				</div>
-			</div>
 
-			<div class="col-md-4 col-sm-6">
-				<div class="grid">
-					<figure class="effect-zoe">
-						<a href="http://fabgraphics.gr/" data-lightbox-gallery="portfolio-gallery">
-							<img src="img/fab3.png" alt="portfolio img"/>
-							<figcaption>
-								<h2>Portfolio - Graphic Designer</h2>
-								<p class="icon-links">
-								<span
-									class="icon icon-attachment"></span>
-								</p>
-							</figcaption>
-						</a>
-					</figure>
-				</div>
-			</div>
+
+
 
 			<!-- Portfolio bottom section
 			================================================== -->
