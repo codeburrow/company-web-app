@@ -397,7 +397,7 @@ CodeBurrow
 					<img src="img/shot_Lut.jpg" class="img-responsive" alt="Antony img">
 					<div class="team-des">
 						<h4>Constantine Lutas</h4>
-						<h3>CEO</h3>
+						<h3>iOS Developer</h3>
 						<ul class="social-icon">
 							<li><a href="https://github.com/CLutas" class="fa fa-github wow fadeIn"
 							       data-wow-delay="0.4s"></a></li>
