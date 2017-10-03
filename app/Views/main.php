@@ -30,9 +30,9 @@ CodeBurrow
 
 				<li><a href="#work" class="smoothScroll">WORK</a></li>
 				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
-				<li><a href="#team" class="smoothScroll">TEAM</a></li>
+<!--				<li><a href="#team" class="smoothScroll">TEAM</a></li>-->
 				<li><a href="#portfolio" class="smoothScroll">GALLERY</a></li>
-				<li><a href="http://www.codeburrow.com/blog" class="smoothScroll">BLOG</a></li>
+<!--				<li><a href="http://www.codeburrow.com/blog" class="smoothScroll">BLOG</a></li>-->
 				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
 			</ul>
 		</div>
@@ -77,7 +77,7 @@ CodeBurrow
 				<div class="container caption-wrapper">
 					<div class="slider-caption">
 						<h2>Mobile Apps</h2>
-						<p class="color-white">Got an idea for the next big Android app? We can help.</p>
+						<p class="color-white">Got an idea for the next big Android/iOS app? We can help.</p>
 					</div>
 				</div>
 			</li>
@@ -312,121 +312,121 @@ CodeBurrow
 
 <!-- team section
 ================================================== -->
-<section id="team" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">THE WHO</h5>
-					<h1 class="heading">OUR TEAM</h1>
-					<hr>
-					<p>Individually we're good.</p>
-					<p>Together we're great.</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-				<div class="team-wrapper">
-					<img src="img/shot_George_cb.jpg" class="img-responsive" alt="George img">
-					<div class="team-des">
-						<h4>George Spiridakis</h4>
-						<h3>Android Developer</h3>
-						<ul class="social-icon">
-							<li><a href="https://github.com/george-sp" class="fa fa-github wow fadeIn"
-							       data-wow-delay="0.4s"></a></li>
-							<li><a href="https://www.linkedin.com/in/spiridakis" class="fa fa-linkedin wow fadeIn"
-							       data-wow-delay="0.4s"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="team-wrapper">
-                    <img src="img/shot_Antony_cb.jpg" class="img-responsive" alt="Antony img">
-                    <div class="team-des">
-                        <h4>Antony Kalogeropoulos</h4>
-                        <h3>CEO</h3>
-                        <ul class="social-icon">
-                            <li><a href="https://github.com/PadawanTony" class="fa fa-github wow fadeIn"
-                                   data-wow-delay="0.4s"></a></li>
-                            <li><a href="https://www.linkedin.com/in/antonykal" class="fa fa-linkedin wow fadeIn"
-                                   data-wow-delay="0.4s"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-				<div class="team-wrapper">
-					<img src="img/shot_Nourhan_cb.jpg" class="img-responsive" alt="Nourhan img">
-					<div class="team-des">
-						<h4>Nourhan Elshenawi</h4>
-						<h3>Web Developer</h3>
-						<ul class="social-icon">
-							<li><a href="https://github.com/NourhanElshenawi" class="fa fa-github wow fadeIn"
-							       data-wow-delay="0.4s"></a></li>
-							<li><a href="https://www.linkedin.com/in/nshenawi" class="fa fa-linkedin wow fadeIn"
-							       data-wow-delay="0.4s"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="team-wrapper">
-                    <img src="img/shot_Riz_cb.jpg" class="img-responsive" alt="George img">
-                    <div class="team-des">
-                        <h4>Rizart Dokollart</h4>
-                        <h3>Full Stack Developer</h3>
-                        <ul class="social-icon">
-                            <li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"
-                                   data-wow-delay="0.4s"></a></li>
-                            <li><a href="https://www.linkedin.com/in/rizart-dokollari-a3643360" class="fa fa-linkedin wow fadeIn"
-                                   data-wow-delay="0.4s"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-				<div class="team-wrapper">
-					<img src="img/shot_Lut.jpg" class="img-responsive" alt="Antony img">
-					<div class="team-des">
-						<h4>Constantine Lutas</h4>
-						<h3>iOS Developer</h3>
-						<ul class="social-icon">
-							<li><a href="https://github.com/CLutas" class="fa fa-github wow fadeIn"
-							       data-wow-delay="0.4s"></a></li>
-							<li><a href="https://www.linkedin.com/in/constantine-lutas-55666229" class="fa fa-linkedin wow fadeIn"
-							       data-wow-delay="0.4s"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="team-wrapper">
-                    <img src="img/shot_Angie_cb.jpg" class="img-responsive" alt="Angie img">
-                    <div class="team-des">
-                        <h4>Angie Manolopoulou</h4>
-                        <h3>Graphic Designer</h3>
-                        <ul class="social-icon">
-                            <!--							<li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"-->
-                            <!--							       data-wow-delay="0.4s"></a></li>-->
-                            <li><a href="https://www.linkedin.com/in/amanolopoulou"
-                                   class="fa fa-linkedin wow fadeIn" data-wow-delay="0.4s"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-		</div>
-	</div>
-</section>
+<!--<section id="team" class="parallax-section">-->
+<!--	<div class="container">-->
+<!--		<div class="row">-->
+<!---->
+<!--			<!-- Section title-->
+<!--			================================================== -->-->
+<!--			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">-->
+<!--				<div class="section-title">-->
+<!--					<h5 class="wow bounceIn">THE WHO</h5>-->
+<!--					<h1 class="heading">OUR TEAM</h1>-->
+<!--					<hr>-->
+<!--					<p>Individually we're good.</p>-->
+<!--					<p>Together we're great.</p>-->
+<!--				</div>-->
+<!--			</div>-->
+<!---->
+<!--			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">-->
+<!--				<div class="team-wrapper">-->
+<!--					<img src="img/shot_George_cb.jpg" class="img-responsive" alt="George img">-->
+<!--					<div class="team-des">-->
+<!--						<h4>George Spiridakis</h4>-->
+<!--						<h3>Android Developer</h3>-->
+<!--						<ul class="social-icon">-->
+<!--							<li><a href="https://github.com/george-sp" class="fa fa-github wow fadeIn"-->
+<!--							       data-wow-delay="0.4s"></a></li>-->
+<!--							<li><a href="https://www.linkedin.com/in/spiridakis" class="fa fa-linkedin wow fadeIn"-->
+<!--							       data-wow-delay="0.4s"></a></li>-->
+<!--						</ul>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!---->
+<!--            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">-->
+<!--                <div class="team-wrapper">-->
+<!--                    <img src="img/shot_Antony_cb.jpg" class="img-responsive" alt="Antony img">-->
+<!--                    <div class="team-des">-->
+<!--                        <h4>Antony Kalogeropoulos</h4>-->
+<!--                        <h3>Founder</h3>-->
+<!--                        <ul class="social-icon">-->
+<!--                            <li><a href="https://github.com/PadawanTony" class="fa fa-github wow fadeIn"-->
+<!--                                   data-wow-delay="0.4s"></a></li>-->
+<!--                            <li><a href="https://www.linkedin.com/in/antonykal" class="fa fa-linkedin wow fadeIn"-->
+<!--                                   data-wow-delay="0.4s"></a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">-->
+<!--				<div class="team-wrapper">-->
+<!--					<img src="img/shot_Nourhan_cb.jpg" class="img-responsive" alt="Nourhan img">-->
+<!--					<div class="team-des">-->
+<!--						<h4>Nourhan Elshenawi</h4>-->
+<!--						<h3>Web Developer</h3>-->
+<!--						<ul class="social-icon">-->
+<!--							<li><a href="https://github.com/NourhanElshenawi" class="fa fa-github wow fadeIn"-->
+<!--							       data-wow-delay="0.4s"></a></li>-->
+<!--							<li><a href="https://www.linkedin.com/in/nshenawi" class="fa fa-linkedin wow fadeIn"-->
+<!--							       data-wow-delay="0.4s"></a></li>-->
+<!--						</ul>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!---->
+<!--            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">-->
+<!--                <div class="team-wrapper">-->
+<!--                    <img src="img/shot_Riz_cb.jpg" class="img-responsive" alt="George img">-->
+<!--                    <div class="team-des">-->
+<!--                        <h4>Rizart Dokollart</h4>-->
+<!--                        <h3>Full Stack Developer</h3>-->
+<!--                        <ul class="social-icon">-->
+<!--                            <li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"-->
+<!--                                   data-wow-delay="0.4s"></a></li>-->
+<!--                            <li><a href="https://www.linkedin.com/in/rizart-dokollari-a3643360" class="fa fa-linkedin wow fadeIn"-->
+<!--                                   data-wow-delay="0.4s"></a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">-->
+<!--				<div class="team-wrapper">-->
+<!--					<img src="img/shot_Lut.jpg" class="img-responsive" alt="Antony img">-->
+<!--					<div class="team-des">-->
+<!--						<h4>Constantine Lutas</h4>-->
+<!--						<h3>iOS Developer</h3>-->
+<!--						<ul class="social-icon">-->
+<!--							<li><a href="https://github.com/CLutas" class="fa fa-github wow fadeIn"-->
+<!--							       data-wow-delay="0.4s"></a></li>-->
+<!--							<li><a href="https://www.linkedin.com/in/constantine-lutas-55666229" class="fa fa-linkedin wow fadeIn"-->
+<!--							       data-wow-delay="0.4s"></a></li>-->
+<!--						</ul>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!---->
+<!--            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">-->
+<!--                <div class="team-wrapper">-->
+<!--                    <img src="img/shot_Angie_cb.jpg" class="img-responsive" alt="Angie img">-->
+<!--                    <div class="team-des">-->
+<!--                        <h4>Angie Manolopoulou</h4>-->
+<!--                        <h3>Graphic Designer</h3>-->
+<!--                        <ul class="social-icon">-->
+<!--                            <!--							<li><a href="https://github.com/rdok" class="fa fa-github wow fadeIn"-->-->
+<!--                            <!--							       data-wow-delay="0.4s"></a></li>-->-->
+<!--                            <li><a href="https://www.linkedin.com/in/amanolopoulou"-->
+<!--                                   class="fa fa-linkedin wow fadeIn" data-wow-delay="0.4s"></a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--		</div>-->
+<!--	</div>-->
+<!--</section>-->
 
 
 <!-- Portfolio section
@@ -717,7 +717,7 @@ CodeBurrow
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<a href="tel:+306949464934">
-						<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> CEO PHONE</h3>
+						<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> MOBILE </h3>
 						<p>+30 694 94 64 934</p>
 					</a>
 				</div>
