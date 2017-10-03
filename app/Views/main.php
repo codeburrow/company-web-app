@@ -27,7 +27,7 @@ CodeBurrow
 			<ul class="nav navbar-nav navbar-right">
 
 				<!-- <li><a href="#home" class="smoothScroll">HOME</a></li> -->
-
+<!--ToDo: enable smoothScroll class-->
 				<li><a href="#work" class="">WORK</a></li>
 				<li><a href="#about" class="">ABOUT</a></li>
 <!--				<li><a href="#team" class="smoothScroll">TEAM</a></li>-->
@@ -445,7 +445,7 @@ CodeBurrow
 					<p>Take a taste. We hope you love it.</p>
 				</div>
 			</div>
-
+<!--ToDo: Add NogaDesigns-->
             <div class="col-md-4 col-sm-6">
                 <div class="grid">
                     <figure class="effect-zoe">
