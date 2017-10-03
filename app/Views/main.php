@@ -28,12 +28,12 @@ CodeBurrow
 
 				<!-- <li><a href="#home" class="smoothScroll">HOME</a></li> -->
 
-				<li><a href="#work" class="smoothScroll">WORK</a></li>
-				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
+				<li><a href="#work" class="">WORK</a></li>
+				<li><a href="#about" class="">ABOUT</a></li>
 <!--				<li><a href="#team" class="smoothScroll">TEAM</a></li>-->
-				<li><a href="#portfolio" class="smoothScroll">GALLERY</a></li>
+				<li><a href="#portfolio" class="">GALLERY</a></li>
 <!--				<li><a href="http://www.codeburrow.com/blog" class="smoothScroll">BLOG</a></li>-->
-				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+				<li><a href="#contact" class="">CONTACT</a></li>
 			</ul>
 		</div>
 
